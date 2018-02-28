@@ -12,7 +12,7 @@
 {
     cell = "About";
     label = "XXTouch\nv1.2.0-1";
-    value = "https://www.xxtouch.com\n2016-2017 (c) XXTouch Team.\nAll Rights Reserved.";
+    value = "https://www.xxtouch.com\n2016-2018 (c) XXTouch Team.\nAll Rights Reserved.";
 };
 ```
 

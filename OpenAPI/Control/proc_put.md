@@ -38,4 +38,7 @@ Content-Length: 45
 sys.alert(proc_get("havonz"))
 ```
 
-![download.svg](proc_put/download.svg)
+设备将弹出一个提示框 ->
+```
+苏泽是个好人
+```

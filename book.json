@@ -9,17 +9,30 @@
         }
     },
     "plugins": [
-        "toggle-chapters",
         "-sharing",
         "-lunr",
+        "back-to-top-button",
+        "sitemap",
+        "advanced-emoji",
         "-search",
         "search-pro",
         "github",
-        "splitter"
+        "splitter",
+        "baidu",
+        "fontsettings"
     ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/Lessica/XXTouchBook"
+        },
+        "baidu": {
+            "token": "26b28768323fe50fa24e2017a52b7f9a"
+        },
+        "sitemap": {
+            "hostname": "http://www.xxtouch.com/"
+		},
+		"fontsettings": {
+			"family": "sans"
         }
     }
 }

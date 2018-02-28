@@ -46,7 +46,11 @@ args = json.decode(args)
 sys.alert("帐号服务器的 IP 为："..args.server_ip.."\n端口为："..args.port)
 ```
 
-![download.svg](spawn/download.svg)
+设备将会弹出一个提示框 -> 
+```
+账号服务器的 IP 为：192.168.31.13
+端口为：55555
+```
 
 - 例子的 Python 语言实现（适用于 Python 2.7.x）：
 
