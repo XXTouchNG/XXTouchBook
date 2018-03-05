@@ -19,7 +19,8 @@
         "github",
         "splitter",
         "baidu",
-        "fontsettings"
+        "fontsettings",
+        "expandable-chapters"
     ],
     "pluginsConfig": {
         "github": {
