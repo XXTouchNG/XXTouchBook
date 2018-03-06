@@ -1,8 +1,8 @@
 #!/bin/sh
 
-BUILD_ACTION="${1:-build}"
+BUILD_ACTION="${1:-deploy}"
 
-if [ "${BUILD_ACTION}" == "build" ]; then
+if [ "${BUILD_ACTION}" == "deploy" ]; then
 
 # 1 - Clean
 mkdir _book > /dev/null
@@ -16,6 +16,15 @@ rsync -avz --progress _book/ root@106.15.9.166::www
 
 # 4 - CDN
 # aliyuncli cdn RefreshObjectCaches --ObjectPath https://kb.xxtouch.com/
+
+elif [ "${BUILD_ACTION}" == "preview" ]; then
+
+# 1 - Clean
+mkdir _book > /dev/null
+rm -f _book/README.md.time
+
+# 2 - Preview
+gitbook serve . --log=debug
 
 elif [ "${BUILD_ACTION}" == "clean" ]; then
 
