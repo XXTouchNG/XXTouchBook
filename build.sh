@@ -12,7 +12,7 @@ rm -f _book/README.md.time
 gitbook build . --log=debug
 
 # 3 - Sync (Please configure authorized_keys before this step)
-rsync -avz --progress _book/ root@106.14.93.80::www
+rsync -avz --progress _book/ root@106.14.93.80:/home/www
 
 # 4 - CDN
 # aliyuncli cdn RefreshObjectCaches --ObjectPath https://kb.xxtouch.com/
