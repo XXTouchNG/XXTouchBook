@@ -3,7 +3,7 @@
 
 * \[2018/03/02\] 1\.2\-5 更新内容：
     - 修正 iOS 11 快捷键阻止调整音量的问题
-    - 修正 \:qr\_decode 与旧版表现不一致的问题
+    - 修正 :qr\_decode 与旧版表现不一致的问题
     - App 细节优化
 
 ---
@@ -95,8 +95,8 @@
     - 试用授权时间增加至 168 小时（仅限新版）
     - 新增 device\.join\_wifi 用于加入一个自定义 WiFi
     - webview 模块及 dialog 模块默认尺寸自适应放大模式
-    - dialog 的 \:timeout 方法新增第二个参数表示超时后返回提交还是没提交
-    - dialog 新增 \:set\_config、\:set\_timeout、\:set\_title、\:set\_size、\:set\_frame、\:set\_corner\_radius 方法
+    - dialog 的 :timeout 方法新增第二个参数表示超时后返回提交还是没提交
+    - dialog 新增 :set\_config、:set\_timeout、:set\_title、:set\_size、:set\_frame、:set\_corner\_radius 方法
     - 内置云打码模块 \( cloud\_ocr \) 支持好爱答题平台
     - 增强优化了脚本启动速度
     - sys\.alert、sys\.input_box 的标题默认改为 “脚本提示”
@@ -105,7 +105,7 @@
     - app\.install 对 iOS 10 系统版本判断不正确导致安装耗时增多的问题
     - 修正 plist\.write 没限制递归深度的问题，将限制递归深度为 50 层
     - 修正远程页面触屏版脚本列表无法滚动的问题
-    - 修正 screen\.image、screen\.find_image、\:crop 的区域参数超出屏幕或图像边界会导致服务崩溃的问题
+    - 修正 screen\.image、screen\.find_image、:crop 的区域参数超出屏幕或图像边界会导致服务崩溃的问题
 
 ---
 

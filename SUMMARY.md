@@ -352,7 +352,7 @@
             - [SupportedResolutions \(支持的设备屏幕物理尺寸数组\)](XPP/Layout/Info/SupportedResolutions.md)
             - [PackageControl \(附加信息\)](XPP/Layout/Info/PackageControl.md)
         - [运行脚本](XPP/Layout/Entry.md)
-        - [配置界面](XPP/Layout/XUI.md)mul
+        - [配置界面](XPP/Layout/XUI.md)
         - [资源管理](XPP/Layout/Resources.md)
         - [本地化](XPP/Layout/Localizable.md)
     - [XPA 打包格式](XPP/XPA.md)
