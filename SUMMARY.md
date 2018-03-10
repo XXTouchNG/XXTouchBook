@@ -266,6 +266,8 @@
     - [PLIST 文件读写模块](Handbook/plist/README.md)
         - [读取 plist 文件](Handbook/plist/plist.read.md)
         - [写入 plist 文件](Handbook/plist/plist.write.md)
+        - [读取属性表数据](Handbook/plist/plist.load.md)
+        - [取 Lua 表的属性表数据](Handbook/plist/plist.dump.md)
     - [小工具模块](Handbook/utils/README.md)
         - [给通讯录添加一个或多个联系人](Handbook/utils/utils.add_contacts.md)
         - [删除通讯录所有联系人](Handbook/utils/utils.remove_all_contacts.md)

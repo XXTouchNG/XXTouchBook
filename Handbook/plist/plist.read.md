@@ -17,6 +17,7 @@ plist = require("plist") -- 需要先引入 plist 模块
 
 #### 说明
 > 读取 plist 文件转换成表  
+> plist 文件中的非通用数据类型值不支持读取，会被忽略  
 
 
 #### 示例  
