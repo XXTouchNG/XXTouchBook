@@ -1,4 +1,5 @@
 ## 如何使用 XXTouch (how-to-use)
+- [脚本及相关资源存在设备的哪个位置？](installed-paths.md)
 
 
 ### 售前及安装答疑
