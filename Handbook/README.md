@@ -244,6 +244,7 @@
     - [去除文本中所有的空白字符](ext-string/string.atrim.md)
     - [去除掉文本前的 UTF8-BOM](ext-string/string.strip_utf8_bom.md)
     - [生成随机字符串](ext-string/string.random.md)
+    - [比较两个版本号大小](ext-string/string.compare_version.md)
     - [扩展 string 示例代码](ext-string/samples.md)
 - [! HTTP 模块](http/README.md)
     - [发起 GET 请求](http/http.get.md)

@@ -248,6 +248,7 @@
         - [去除文本中所有的空白字符](Handbook/ext-string/string.atrim.md)
         - [去除掉文本前的 UTF8-BOM](Handbook/ext-string/string.strip_utf8_bom.md)
         - [生成随机字符串](Handbook/ext-string/string.random.md)
+        - [比较两个版本号大小](Handbook/ext-string/string.compare_version.md)
         - [扩展 string 示例代码](Handbook/ext-string/samples.md)
     - [! HTTP 模块](Handbook/http/README.md)
         - [发起 GET 请求](Handbook/http/http.get.md)

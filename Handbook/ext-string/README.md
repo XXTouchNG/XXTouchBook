@@ -17,5 +17,6 @@
 - [去除文本中所有的空白字符](string.atrim.md)
 - [去除掉文本前的 UTF8-BOM](string.strip_utf8_bom.md)
 - [生成随机字符串](string.random.md)
+- [比较两个版本号大小](string.compare_version.md)
 - [扩展 string 示例代码](samples.md)
 
