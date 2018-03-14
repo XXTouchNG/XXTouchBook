@@ -30,4 +30,10 @@ elif [ "${BUILD_ACTION}" == "clean" ]; then
 
 rm -rf _book
 
+elif [ "${BUILD_ACTION}" == "install" ]; then
+
+cp -p "./.gitbook_resources/expandable-chapters.js" "./node_modules/gitbook-plugin-expandable-chapters/book/"
+cp -p "./.gitbook_resources/generateBook.js" "$HOME/.gitbook/versions/3.2.3/lib/output/"
+cp -p "./.gitbook_resources/onPage.js" "$HOME/.gitbook/versions/3.2.3/lib/output/website/"
+
 fi
