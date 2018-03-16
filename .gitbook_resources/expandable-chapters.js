@@ -11,30 +11,21 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
       .children('a,span')
       .append(TRIGGER_TEMPLATE)
       .on('click', function(e) {
-        if (!$(e.target).is('a')) {
+        var $target = $(e.target);
+        if (!$target.is('a') || ($target.is('a') && $target.attr('href') == './')) {
           e.preventDefault();
           e.stopPropagation();
-          toggle($(e.target).closest(CHAPTER));
+          toggle($target.closest(CHAPTER));
         }
       });
 
-    if (arguments.length) {
-      var page = arguments[0];
-      var $page = $(CHAPTER).map(function(index, element) {
-        if ($(element).data('level') === page.level) {
-          return this;
-        }
-      });
-      console.log(page);
-      expand($page);
-    } else {
-      expand(lsItem());
-    }
-    
+    expand(lsItem());
     //expand current selected chapter with it's parents
     var activeChapter = $(CHAPTER + '.active');
     expand(activeChapter);
     expand(activeChapter.parents(CHAPTER));
+
+
   } 
   var toggle = function ($chapter) {
     if ($chapter.hasClass('expanded')) {
@@ -66,14 +57,14 @@ require(['gitbook', 'jQuery'], function(gitbook, $) {
       })
       localStorage.setItem(LS_NAMESPACE, JSON.stringify(map));
     } else {
-      return $(CHAPTER).map(function(index, element) {
+      return $(CHAPTER).map(function(index, element){
         if (map[$(this).data('level')]) {
           return this;
         }
-      });
+      })
     }
   }
-  gitbook.events.bind('page.change', function(e) {
-    init(gitbook.page.getState().page);
+  gitbook.events.bind('page.change', function() {
+    init()
   }); 
 });
