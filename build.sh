@@ -14,8 +14,17 @@ gitbook build . --log=debug
 # 3 - Sync (Please configure authorized_keys before this step)
 rsync -avz --progress _book/ root@${XXT_BOOK_IP}:/home/www
 
-# 4 - CDN
-# aliyuncli cdn RefreshObjectCaches --ObjectPath https://kb.xxtouch.com/
+elif [ "${BUILD_ACTION}" == "sitemap" ]; then
+
+NODE_COUNT=`xmllint --xpath "count(/*[local-name()='urlset']/*[local-name()='url'])" _book/sitemap.xml`
+NODE_LIST=""
+for ((i=1;i<=$[NODE_COUNT];i++));
+do
+NODE_URL=`xmllint --xpath "/*[local-name()='urlset']/*[local-name()='url'][${i}]/*[local-name()='loc']/text()" _book/sitemap.xml`
+NODE_LIST="${NODE_LIST}\n${NODE_URL}"
+done
+
+echo $NODE_LIST > sitemap.txt
 
 elif [ "${BUILD_ACTION}" == "preview" ]; then
 
@@ -37,3 +46,5 @@ cp -p "./.gitbook_resources/generateBook.js" "$HOME/.gitbook/versions/3.2.3/lib/
 cp -p "./.gitbook_resources/onPage.js" "$HOME/.gitbook/versions/3.2.3/lib/output/website/"
 
 fi
+
+echo "Done."
