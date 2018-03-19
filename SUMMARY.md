@@ -8,7 +8,7 @@
     - [关于 XXTouch](Handbook/about-xxtouch/README.md)
     - [如何阅读本手册](Handbook/how-to-read/README.md)
     - [如何使用 XXTouch](Handbook/how-to-use/README.md)
-        - [脚本及相关资源存在设备的哪个位置？](Handbook/how-to-use/installed-paths.md)
+        - [脚本及相关资源存在设备的哪个位置？](Handbook/how-to-use/README.md)
     - [保护脚本，正确接受 require](Handbook/secure-require/README.md)
     - [基本控制函数](Handbook/control-flow/README.md)
         - [结束脚本](Handbook/control-flow/os.exit.md)
