@@ -1,5 +1,6 @@
 ## 线程模块
 
+- [前言](START.md)
 - [派发一个任务 \(**thread\.dispatch**\)](thread.dispatch.md)
 - [获取当前任务的 ID \(**thread\.current\_id**\)](thread.current_id.md)
 - [从队列中移除一项任务 \(**thread\.kill**\)](thread.kill.md)

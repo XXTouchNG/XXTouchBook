@@ -1,5 +1,6 @@
 ## 扩展 string 模块
 
+- [前言](START.md)
 - [转成 16 进制文本 \(**string\.to\_hex**\)](string.to_hex.md)
 - [从 16 进制文本转回 \(**string\.from\_hex**\)](string.from_hex.md)
 - [将 GBK 编码的文本转成 UTF\-8 编码的文本 \(**string\.from\_gbk**\)](string.from_gbk.md)

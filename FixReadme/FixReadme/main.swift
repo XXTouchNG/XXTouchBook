@@ -197,7 +197,7 @@ class Chapter: CustomStringConvertible {
 }
 
 setbuf(__stdoutp, nil);
-var contents = try? String.init(contentsOfFile: "/Users/darwin/Projects/XXTouchBook/SUMMARY.md")
+var contents = try? String.init(contentsOfFile: "SUMMARY.md")
 if let contents = contents {
     let chap = Chapter.init(titleLine: "[XXTouch 知识库](SUMMARY.md)", contents: contents, level: 0)
     if let path = chap.path {
