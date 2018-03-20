@@ -70,6 +70,10 @@ fi
 
 if [ "${BUILD_ACTION}" == "verify" ]; then
 
+echo "Build tools..."
+xcodebuild build -project ./FixReadme/FixReadme.xcodeproj -scheme FixReadme -derivedDataPath ./XcodeBuild | xcpretty --color
+cp -p ./XcodeBuild/Build/Products/Debug/FixReadme ./FixReadmeSwift
+
 echo "Verify changes..."
 ./FixReadmeSwift
 
