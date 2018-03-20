@@ -18,7 +18,8 @@
         "github",
         "fontsettings",
         "expandable-chapters",
-        "-livereload"
+        "-livereload",
+        "splitter"
     ],
     "pluginsConfig": {
         "github": {
