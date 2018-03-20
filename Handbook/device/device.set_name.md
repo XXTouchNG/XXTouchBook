@@ -1,4 +1,4 @@
-### 设置设备名 (**device\.set\_name**)
+### 设置设备名 \(**device\.set\_name**\)
 
 
 #### 声明

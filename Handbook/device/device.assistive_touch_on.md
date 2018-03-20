@@ -1,4 +1,4 @@
-### 打开 AssistiveTouch (**device\.assistive\_touch\_on**)
+### 打开 AssistiveTouch \(**device\.assistive\_touch\_on**\)
 
 
 #### 声明

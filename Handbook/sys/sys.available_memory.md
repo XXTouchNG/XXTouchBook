@@ -1,4 +1,4 @@
-### 获取设备当前可用内存值 (**sys\.available\_memory**)
+### 获取设备当前可用内存值 \(**sys\.available\_memory**\)
 
 
 #### 声明

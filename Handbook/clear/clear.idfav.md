@@ -1,4 +1,4 @@
-### 清理 IDFA/V (**clear\.idfav**)
+### 清理 IDFA/V \(**clear\.idfav**\)
 
 
 #### 声明

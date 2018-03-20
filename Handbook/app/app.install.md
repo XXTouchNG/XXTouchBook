@@ -1,4 +1,4 @@
-### 安装IPA安装包 (**app\.install**)
+### 安装IPA安装包 \(**app\.install**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 解锁屏幕 (**device\.unlock\_screen**)
+### 解锁屏幕 \(**device\.unlock\_screen**\)
 
 
 #### 声明

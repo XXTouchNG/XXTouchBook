@@ -1,4 +1,4 @@
-### 模拟摇一摇 (**accelerometer\.shake**)
+### 模拟摇一摇 \(**accelerometer\.shake**\)
 
 
 #### 声明

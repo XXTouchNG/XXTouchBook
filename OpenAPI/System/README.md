@@ -1,3 +1,19 @@
-# 系统相关
+## 系统相关
 
-请选择任意一个子条目进行预览.
+- [获取设备已安装应用程序信息](applist.md)
+- [获取设备信息](deviceinfo.md)
+- [锁定屏幕](lock_screen.md)
+- [解锁屏幕](unlock_screen.md)
+- [重启服务](restart.md)
+- [注销设备](respring.md)
+- [重启设备](reboot2.md)
+- [关机](halt.md)
+- [清理 UI 缓存](uicache.md)
+- [清理 GPS 伪装信息](clear_gps.md)
+- [全清设备](clear_all.md)
+- [清理应用程序存档](clear_app_data.md)
+- [导入一张照片到系统相册](image_to_album.md)
+- [更新自己](update_deb.md)
+- [打开远程访问](open_remote_access.md)
+- [关闭远程访问](close_remote_access.md)
+- [获取远程服务开启状态](is_remote_access_opened.md)

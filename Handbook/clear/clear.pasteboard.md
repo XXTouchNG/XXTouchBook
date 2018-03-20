@@ -1,4 +1,4 @@
-### 清理剪贴板 (**clear\.pasteboard**)
+### 清理剪贴板 \(**clear\.pasteboard**\)
 
 
 #### 声明

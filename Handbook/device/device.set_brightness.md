@@ -1,4 +1,4 @@
-### 设置背光亮度 (**device\.set\_brightness**)
+### 设置背光亮度 \(**device\.set\_brightness**\)
 
 
 #### 声明

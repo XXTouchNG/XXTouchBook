@@ -1,4 +1,4 @@
-### 获取设备UDID (**device\.udid**)
+### 获取设备UDID \(**device\.udid**\)
 
 
 #### 声明

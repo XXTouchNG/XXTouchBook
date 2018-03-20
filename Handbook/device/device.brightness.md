@@ -1,4 +1,4 @@
-### 获取背光亮度值 (**device\.brightness**)
+### 获取背光亮度值 \(**device\.brightness**\)
 
 
 #### 声明

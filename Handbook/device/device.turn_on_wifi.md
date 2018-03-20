@@ -1,4 +1,4 @@
-### 打开设备 WiFi (**device\.turn\_on\_wifi**)
+### 打开设备 WiFi \(**device\.turn\_on\_wifi**\)
 
 
 #### 声明

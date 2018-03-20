@@ -1,4 +1,4 @@
-### 获取屏幕上某点颜色 RGB (**screen\.get\_color\_rgb**)
+### 获取屏幕上某点颜色 RGB \(**screen\.get\_color\_rgb**\)
 
 
 #### 声明

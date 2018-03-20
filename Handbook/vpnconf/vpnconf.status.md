@@ -1,4 +1,4 @@
-### 获取当前选择的 VPN 的状态 (**vpnconf\.status**)
+### 获取当前选择的 VPN 的状态 \(**vpnconf\.status**\)
 
 
 #### 声明

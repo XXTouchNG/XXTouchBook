@@ -1,4 +1,4 @@
-### 锁定设备屏幕旋转 (**device\.lock\_orien**)
+### 锁定设备屏幕旋转 \(**device\.lock\_orien**\)
 
 
 #### 声明

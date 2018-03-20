@@ -1,4 +1,4 @@
-### 去除掉文本前的 UTF8\-BOM (**string\.strip\_utf8\_bom**)
+### 去除掉文本前的 UTF8\-BOM \(**string\.strip\_utf8\_bom**\)
 
 
 #### 声明

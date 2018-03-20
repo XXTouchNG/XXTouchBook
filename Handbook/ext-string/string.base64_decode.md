@@ -1,4 +1,4 @@
-### 对 base64 编码的文本进行解码 (**string\.base64\_decode**)
+### 对 base64 编码的文本进行解码 \(**string\.base64\_decode**\)
 
 
 #### 声明

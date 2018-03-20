@@ -1,4 +1,4 @@
-### FTP 文件下载 (**ftp\.download**)
+### FTP 文件下载 \(**ftp\.download**\)
 
 
 #### 声明

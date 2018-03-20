@@ -1,4 +1,4 @@
-### 比较两个版本号大小 (**string\.compare\_version**)
+### 比较两个版本号大小 \(**string\.compare\_version**\)
 
 
 #### 声明

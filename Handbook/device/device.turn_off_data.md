@@ -1,4 +1,4 @@
-### 关闭设备蜂窝数据 (**device\.turn\_off\_data**)
+### 关闭设备蜂窝数据 \(**device\.turn\_off\_data**\)
 
 
 #### 声明

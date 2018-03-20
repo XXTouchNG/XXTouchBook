@@ -1,4 +1,4 @@
-### JSON 中的 NULL 常量 (**json\.null**)
+### JSON 中的 NULL 常量 \(**json\.null**\)
 
 
 #### 声明

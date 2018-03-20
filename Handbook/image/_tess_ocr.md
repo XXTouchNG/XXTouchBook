@@ -1,4 +1,4 @@
-### tesseract \- 对图片进行 ocr 识别 (**:tess\_ocr**)
+### tesseract \- 对图片进行 ocr 识别 \(**:tess\_ocr**\)
 
 
 #### 声明

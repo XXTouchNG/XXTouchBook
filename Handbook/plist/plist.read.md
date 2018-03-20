@@ -1,4 +1,4 @@
-### 读取 plist 文件 (**plist\.read**)
+### 读取 plist 文件 \(**plist\.read**\)
 
 
 #### 声明

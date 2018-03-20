@@ -1,4 +1,4 @@
-### 打开“减少动态效果”开关 (**device\.reduce\_motion\_on**)
+### 打开“减少动态效果”开关 \(**device\.reduce\_motion\_on**\)
 
 
 #### 声明

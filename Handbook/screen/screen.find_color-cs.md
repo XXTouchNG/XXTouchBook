@@ -1,4 +1,4 @@
-### 多点相似度模式找色 (**screen\.find\_color-cs**)
+### 多点相似度模式找色 \(**screen\.find\_color-cs**\)
 
 
 #### 声明

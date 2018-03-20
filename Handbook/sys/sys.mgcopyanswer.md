@@ -1,4 +1,4 @@
-### 问系统一个问题 (**sys\.mgcopyanswer**)
+### 问系统一个问题 \(**sys\.mgcopyanswer**\)
 
 
 #### 声明

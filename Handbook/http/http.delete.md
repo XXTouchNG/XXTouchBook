@@ -1,4 +1,4 @@
-### 发起 DELETE 请求 (**http\.delete**)
+### 发起 DELETE 请求 \(**http\.delete**\)
 
 
 #### 声明

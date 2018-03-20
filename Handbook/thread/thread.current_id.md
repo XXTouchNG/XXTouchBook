@@ -1,4 +1,4 @@
-### 获取当前任务的 ID (**thread\.current\_id**)
+### 获取当前任务的 ID \(**thread\.current\_id**\)
 
 
 #### 声明

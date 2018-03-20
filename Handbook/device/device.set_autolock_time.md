@@ -1,4 +1,4 @@
-### 设置自动锁屏分钟数 (**device\.set\_autolock\_time**)
+### 设置自动锁屏分钟数 \(**device\.set\_autolock\_time**\)
 
 
 #### 声明

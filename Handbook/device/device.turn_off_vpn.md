@@ -1,4 +1,4 @@
-### 断开已有的 VPN 连接 (**device\.turn\_off\_vpn**)
+### 断开已有的 VPN 连接 \(**device\.turn\_off\_vpn**\)
 
 
 #### 声明

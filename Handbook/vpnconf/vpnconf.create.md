@@ -1,4 +1,4 @@
-### 创建一个 VPN 配置 (**vpnconf\.create**)
+### 创建一个 VPN 配置 \(**vpnconf\.create**\)
 
 
 #### 声明

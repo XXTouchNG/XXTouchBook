@@ -1,4 +1,4 @@
-### FTP 文件上传 (**ftp\.upload**)
+### FTP 文件上传 \(**ftp\.upload**\)
 
 
 #### 声明

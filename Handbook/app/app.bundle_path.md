@@ -1,4 +1,4 @@
-### 获取 App 的应用程序包路径 (**app\.bundle\_path**)
+### 获取 App 的应用程序包路径 \(**app\.bundle\_path**\)
 
 
 #### 声明

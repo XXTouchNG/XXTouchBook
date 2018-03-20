@@ -1,4 +1,4 @@
-### 对字符串进行 base64 编码 (**string\.base64\_encode**)
+### 对字符串进行 base64 编码 \(**string\.base64\_encode**\)
 
 
 #### 声明

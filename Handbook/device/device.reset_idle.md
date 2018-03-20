@@ -1,4 +1,4 @@
-### 重置自动锁屏倒计时 (**device\.reset\_idle**)
+### 重置自动锁屏倒计时 \(**device\.reset\_idle**\)
 
 
 #### 声明

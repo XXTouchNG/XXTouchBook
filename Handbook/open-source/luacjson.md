@@ -1,4 +1,4 @@
-### LuaCJSON 扩展库 (luacjson)
+### LuaCJSON 扩展库
 
 
 #### [LuaCJSON 手册地址](http://www.kyne.com.au/~mark/software/lua-cjson-manual.html)

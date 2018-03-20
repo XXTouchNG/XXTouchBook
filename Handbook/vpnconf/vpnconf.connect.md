@@ -1,4 +1,4 @@
-### 以当前选择的 VPN 建立连接 (**vpnconf\.connect**)
+### 以当前选择的 VPN 建立连接 \(**vpnconf\.connect**\)
 
 
 #### 声明

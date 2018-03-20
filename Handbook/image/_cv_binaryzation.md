@@ -1,4 +1,4 @@
-### cv \- 图片自动二值化 (**:cv\_binaryzation**)
+### cv \- 图片自动二值化 \(**:cv\_binaryzation**\)
 
 
     - 声明

@@ -1,4 +1,4 @@
-### 后台播放声音 (**device\.play\_sound**)
+### 后台播放声音 \(**device\.play\_sound**\)
 
 
 #### 声明

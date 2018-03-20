@@ -1,4 +1,4 @@
-### 新建一个文本图片对象 (**image\.new\_text\_image**)
+### 新建一个文本图片对象 \(**image\.new\_text\_image**\)
 
 
 #### 声明

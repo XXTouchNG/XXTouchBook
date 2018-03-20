@@ -1,4 +1,4 @@
-### 通过应用程序 bid 获取应用的图标数据 (**app\.png\_data\_for\_bid**)
+### 通过应用程序 bid 获取应用的图标数据 \(**app\.png\_data\_for\_bid**\)
 
 
 #### 声明

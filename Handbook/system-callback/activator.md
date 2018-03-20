@@ -1,4 +1,4 @@
-### Activator 事件回调消息 (activator)
+### Activator 事件回调消息
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 获取设备的 WiFi MAC 地址 (**device\.wifi\_mac**)
+### 获取设备的 WiFi MAC 地址 \(**device\.wifi\_mac**\)
 
 
 #### 声明

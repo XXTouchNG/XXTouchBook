@@ -1,4 +1,4 @@
-### 注册监听一个事件 (**thread\.register\_event**)
+### 注册监听一个事件 \(**thread\.register\_event**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 颜色替换 (**:replace\_color**)
+### 颜色替换 \(**:replace\_color**\)
 
 
 #### 声明

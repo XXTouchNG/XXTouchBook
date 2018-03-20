@@ -1,4 +1,4 @@
-### 图像合并 (**image\.oper\_merge**)
+### 图像合并 \(**image\.oper\_merge**\)
 
 
 #### 声明

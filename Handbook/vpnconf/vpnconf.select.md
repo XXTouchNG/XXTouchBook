@@ -1,4 +1,4 @@
-### 选择一个 VPN 配置 (**vpnconf\.select**)
+### 选择一个 VPN 配置 \(**vpnconf\.select**\)
 
 
 #### 声明

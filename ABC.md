@@ -1,4 +1,4 @@
-# XXTouch iOS 使用入门
+# 使用入门
 
 
 ### 如何安装 XXTouch 到设备上？

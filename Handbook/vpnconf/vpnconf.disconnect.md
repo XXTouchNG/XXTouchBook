@@ -1,4 +1,4 @@
-### 断开当前的 VPN 连接 (**vpnconf\.disconnect**)
+### 断开当前的 VPN 连接 \(**vpnconf\.disconnect**\)
 
 
 #### 声明

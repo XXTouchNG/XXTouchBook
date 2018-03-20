@@ -1,4 +1,4 @@
-### touch 示例代码 (samples-1)
+### touch 示例代码
 
 
 #### 示例  

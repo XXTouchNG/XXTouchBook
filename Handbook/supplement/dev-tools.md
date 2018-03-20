@@ -1,4 +1,4 @@
-### 开发及周边工具下载 (dev-tools)
+### 开发及周边工具下载
 
 #### [全平台编辑器、脚本制作工具、集成开发环境下载页](https://www.xxtouch.com/xxtstudio)
 

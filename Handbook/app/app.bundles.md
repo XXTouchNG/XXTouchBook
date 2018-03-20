@@ -1,4 +1,4 @@
-### 获取设备所有的应用的 Bundle Identifier 列表 (**app\.bundles**)
+### 获取设备所有的应用的 Bundle Identifier 列表 \(**app\.bundles**\)
 
 
 #### 声明

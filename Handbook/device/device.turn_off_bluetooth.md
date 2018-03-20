@@ -1,4 +1,4 @@
-### 关闭设备蓝牙 (**device\.turn\_off\_bluetooth**)
+### 关闭设备蓝牙 \(**device\.turn\_off\_bluetooth**\)
 
 
 #### 声明

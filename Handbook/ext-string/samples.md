@@ -1,4 +1,4 @@
-### 扩展 string 示例代码 (samples)
+### 扩展 string 示例代码
 
 
 ```lua

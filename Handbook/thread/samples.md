@@ -1,4 +1,4 @@
-### thread 示例代码 (samples)
+### thread 示例代码
 
 
 ```lua

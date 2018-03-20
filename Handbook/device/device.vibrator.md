@@ -1,4 +1,4 @@
-### 振动设备 (**device\.vibrator**)
+### 振动设备 \(**device\.vibrator**\)
 
 
 #### 声明

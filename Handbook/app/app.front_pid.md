@@ -1,4 +1,4 @@
-### 获取前台应用的 Process Identifier (**app\.front\_pid**)
+### 获取前台应用的 Process Identifier \(**app\.front\_pid**\)
 
 
 #### 声明

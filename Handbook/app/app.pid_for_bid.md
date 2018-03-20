@@ -1,4 +1,4 @@
-### 通过应用程序 bid 获取其 pid (**app\.pid\_for\_bid**)
+### 通过应用程序 bid 获取其 pid \(**app\.pid\_for\_bid**\)
 
 
 #### 声明

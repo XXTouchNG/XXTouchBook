@@ -1,4 +1,4 @@
-### luaiconv 编码转换扩展库 (luaiconv)
+### luaiconv 编码转换扩展库
 
 
 #### [luaiconv 手册地址](http://ittner.github.io/lua-iconv/#api-documentation)

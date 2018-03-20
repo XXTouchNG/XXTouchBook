@@ -1,4 +1,4 @@
-### LuaSQLite3 模块 (luasqlite3)
+### LuaSQLite3 模块
 
 
 #### [LuaSQLite3 手册地址](http://lua.sqlite.org/index.cgi/doc/tip/doc/lsqlite3.wiki)

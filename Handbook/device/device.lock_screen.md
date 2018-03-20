@@ -1,4 +1,4 @@
-### 锁定屏幕 (**device\.lock\_screen**)
+### 锁定屏幕 \(**device\.lock\_screen**\)
 
 
 #### 声明

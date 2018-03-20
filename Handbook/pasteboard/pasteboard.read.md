@@ -1,4 +1,4 @@
-### 获取剪贴板中的数据 (**pasteboard\.read**)
+### 获取剪贴板中的数据 \(**pasteboard\.read**\)
 
 
 #### 声明

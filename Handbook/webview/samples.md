@@ -1,4 +1,4 @@
-### webview 使用示例 (samples)
+### webview 使用示例
 
 #### 一个演示
 ```lua

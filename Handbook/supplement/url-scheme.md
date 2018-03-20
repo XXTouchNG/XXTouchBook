@@ -1,4 +1,4 @@
-### "URL Scheme" 的相关应用 (url-scheme)
+### "URL Scheme" 的相关应用
 
 
 具体使用方法参考：[app.open_url](#前台打开一个-url-appopenurl)

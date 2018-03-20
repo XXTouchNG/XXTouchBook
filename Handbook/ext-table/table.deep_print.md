@@ -1,4 +1,4 @@
-### 深打印一个表 (**table\.deep\_print**)
+### 深打印一个表 \(**table\.deep\_print**\)
 
 
 #### 声明

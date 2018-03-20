@@ -1,4 +1,4 @@
-### LuaSocket 扩展库 (luasocket)
+### LuaSocket 扩展库
 
 
 #### [LuaSocket 手册地址](http://w3.impa.br/~diego/software/luasocket/reference.html)

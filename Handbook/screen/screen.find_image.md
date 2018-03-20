@@ -1,4 +1,4 @@
-### 屏幕找图 (**screen\.find\_image**)
+### 屏幕找图 \(**screen\.find\_image**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### string 库的相关应用 (string-samples)
+### string 库的相关应用
 
 
 #### 基本函数

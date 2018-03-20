@@ -1,4 +1,4 @@
-### 将 GBK 编码的文本转成 UTF\-8 编码的文本 (**string\.from\_gbk**)
+### 将 GBK 编码的文本转成 UTF\-8 编码的文本 \(**string\.from\_gbk**\)
 
 
 #### 声明

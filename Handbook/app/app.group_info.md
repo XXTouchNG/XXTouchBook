@@ -1,4 +1,4 @@
-### 获取 App 的应用分组信息 (**app\.group\_info**)
+### 获取 App 的应用分组信息 \(**app\.group\_info**\)
 
 
 #### 声明

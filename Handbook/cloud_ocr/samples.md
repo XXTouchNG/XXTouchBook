@@ -1,4 +1,4 @@
-### cloud\_ocr 示例代码 (samples)
+### cloud\_ocr 示例代码
 
 
 ```lua

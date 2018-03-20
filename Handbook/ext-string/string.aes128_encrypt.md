@@ -1,4 +1,4 @@
-### 对字符串进行加密 (**string\.aes128\_encrypt**)
+### 对字符串进行加密 \(**string\.aes128\_encrypt**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 坐标旋转转换 (**screen\.rotate\_xy**)
+### 坐标旋转转换 \(**screen\.rotate\_xy**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 改变当前重力方向为 home 在下 (**accelerometer\.rotate\_home\_on\_bottom**)
+### 改变当前重力方向为 home 在下 \(**accelerometer\.rotate\_home\_on\_bottom**\)
 
 
 #### 声明

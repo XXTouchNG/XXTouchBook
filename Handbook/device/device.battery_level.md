@@ -1,4 +1,4 @@
-### 获取当前设备电池剩余电量 (**device\.battery\_level**)
+### 获取当前设备电池剩余电量 \(**device\.battery\_level**\)
 
 
 #### 声明

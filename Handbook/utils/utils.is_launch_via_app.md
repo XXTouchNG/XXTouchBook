@@ -1,4 +1,4 @@
-### 判断当前脚本是否从 App 内启动 (**utils\.is\_launch\_via\_app**)
+### 判断当前脚本是否从 App 内启动 \(**utils\.is\_launch\_via\_app**\)
 
 
 #### 声明

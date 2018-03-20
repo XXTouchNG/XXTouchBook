@@ -1,4 +1,4 @@
-### 获取屏幕锁定状态 (**device\.is\_screen\_locked**)
+### 获取屏幕锁定状态 \(**device\.is\_screen\_locked**\)
 
 
 #### 声明

@@ -1,3 +1,17 @@
-# 文件相关
+## 文件相关
 
-请选择任意一个子条目进行预览.
+- [获取文件列表](file_list.md)
+- [选择一个脚本文件](select_script_file.md)
+- [获取当前已经选择的脚本文件](get_selected_script_file.md)
+- [运行已经选择的脚本](launch_script_file.md)
+- [删除一个脚本文件](remove_script_file.md)
+- [新建一个脚本文件](new_script_file.md)
+- [写入内容到脚本文件](write_script_file.md)
+- [新建一个目录](mkdir.md)
+- [删除一个目录](rmdir.md)
+- [读取脚本文件](read_script_file.md)
+- [重命名一个文件或目录（RAW）](rename_file.md)
+- [删除一个文件或空目录（RAW）](remove_file.md)
+- [读取一个文件（RAW）](read_file.md)
+- [写入一个文件（RAW）](write_file.md)
+- [跳转下载一个文件](download_file.md)

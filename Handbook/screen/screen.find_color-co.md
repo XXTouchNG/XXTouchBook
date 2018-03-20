@@ -1,4 +1,4 @@
-### 多点色偏模式找色 (**screen\.find\_color-co**)
+### 多点色偏模式找色 \(**screen\.find\_color-co**\)
 
 
 #### 声明

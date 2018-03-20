@@ -1,4 +1,4 @@
-### 打开设备蜂窝数据 (**device\.turn\_on\_data**)
+### 打开设备蜂窝数据 \(**device\.turn\_on\_data**\)
 
 
 #### 声明

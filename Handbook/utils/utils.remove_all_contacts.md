@@ -1,4 +1,4 @@
-### 删除通讯录所有联系人 (**utils\.remove\_all\_contacts**)
+### 删除通讯录所有联系人 \(**utils\.remove\_all\_contacts**\)
 
 
 #### 声明

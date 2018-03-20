@@ -1,4 +1,4 @@
-### 屏幕多点颜色匹配 (**screen\.is\_colors**)
+### 屏幕多点颜色匹配 \(**screen\.is\_colors**\)
 
 
 #### 声明

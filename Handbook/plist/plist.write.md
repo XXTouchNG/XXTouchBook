@@ -1,4 +1,4 @@
-### 写入 plist 文件 (**plist\.write**)
+### 写入 plist 文件 \(**plist\.write**\)
 
 
 #### 声明

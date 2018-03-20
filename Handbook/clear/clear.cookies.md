@@ -1,4 +1,4 @@
-### 清理浏览器Cookies (**clear\.cookies**)
+### 清理浏览器Cookies \(**clear\.cookies**\)
 
 
 #### 声明

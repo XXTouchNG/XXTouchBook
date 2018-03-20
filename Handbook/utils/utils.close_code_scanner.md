@@ -1,4 +1,4 @@
-### 关闭扫码器 (**utils\.close\_code\_scanner**)
+### 关闭扫码器 \(**utils\.close\_code\_scanner**\)
 
 
 #### 声明

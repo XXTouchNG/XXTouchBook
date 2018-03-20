@@ -1,4 +1,4 @@
-### 提交错误的识别 (**plat\.report\_error**)
+### 提交错误的识别 \(**plat\.report\_error**\)
 
 
 #### 声明

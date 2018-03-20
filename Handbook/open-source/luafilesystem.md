@@ -1,4 +1,4 @@
-### LuaFileSystem 扩展库 (luafilesystem)
+### LuaFileSystem 扩展库
 
 
 #### [LuaFileSystem 手册地址](http://keplerproject.github.io/luafilesystem/manual.html)

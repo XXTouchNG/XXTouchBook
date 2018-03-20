@@ -68,6 +68,13 @@ cp -p "./.gitbook_resources/onPage.js" "$HOME/.gitbook/versions/3.2.3/lib/output
 
 fi
 
+if [ "${BUILD_ACTION}" == "verify" ]; then
+
+echo "Verify changes..."
+./FixReadmeSwift
+
+fi
+
 
 
 echo "Done."

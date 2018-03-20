@@ -1,4 +1,4 @@
-### 写内容进剪贴板 (**pasteboard\.write**)
+### 写内容进剪贴板 \(**pasteboard\.write**\)
 
 
 #### 声明

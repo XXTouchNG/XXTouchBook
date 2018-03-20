@@ -1,4 +1,4 @@
-### 获取设备的序列号 (**device\.serial\_number**)
+### 获取设备的序列号 \(**device\.serial\_number**\)
 
 
 #### 声明

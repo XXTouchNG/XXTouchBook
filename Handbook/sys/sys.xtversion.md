@@ -1,4 +1,4 @@
-### 获取 XXTouch 版本 (**sys\.xtversion**)
+### 获取 XXTouch 版本 \(**sys\.xtversion**\)
 
 
 #### 声明

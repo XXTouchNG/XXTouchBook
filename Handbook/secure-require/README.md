@@ -1,4 +1,4 @@
-## 保护脚本，正确接受 require \(secure\-require\)
+## 保护脚本，正确接受 require
 
 
 - 为何 [require](http://cloudwu.github.io/lua53doc/manual.html#pdf-require) 可能带来安全风险？

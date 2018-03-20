@@ -1,4 +1,4 @@
-### 派发一个任务 (**thread\.dispatch**)
+### 派发一个任务 \(**thread\.dispatch**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 删除一个 VPN 配置 (**vpnconf\.delete**)
+### 删除一个 VPN 配置 \(**vpnconf\.delete**\)
 
 
 #### 声明

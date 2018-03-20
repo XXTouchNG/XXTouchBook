@@ -1,4 +1,4 @@
-### 关闭设备飞行模式 (**device\.turn\_off\_airplane**)
+### 关闭设备飞行模式 \(**device\.turn\_off\_airplane**\)
 
 
 #### 声明

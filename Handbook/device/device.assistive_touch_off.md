@@ -1,4 +1,4 @@
-### 关闭 AssistiveTouch (**device\.assistive\_touch\_off**)
+### 关闭 AssistiveTouch \(**device\.assistive\_touch\_off**\)
 
 
 #### 声明

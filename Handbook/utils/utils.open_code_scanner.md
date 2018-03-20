@@ -1,4 +1,4 @@
-### 打开扫码器 (**utils\.open\_code\_scanner**)
+### 打开扫码器 \(**utils\.open\_code\_scanner**\)
 
 
 #### 声明

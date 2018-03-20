@@ -1,3 +1,17 @@
-# 设置相关
+## 设置相关
 
-请选择任意一个子条目进行预览.
+- [获取录制设置](get_record_conf.md)
+- [录制设置开关](set_record_conf.md)
+- [获取音量键事件设置](get_volume_action_conf.md)
+- [音量键事件设置开关](set_volume_action_conf.md)
+- [获取开机启动设置](get_startup_conf.md)
+- [开机启动设置开关](set_startup_conf.md)
+- [选择开机启动脚本](select_startup_script_file.md)
+- [获得用户偏好配置](get_user_conf.md)
+- [设置用户偏好配置](set_user_conf.md)
+- [禁弹出 “无 SIM 卡” 弹窗开关](set_no_nosim_alert.md)
+- [禁弹出 “低电量” 弹窗开关](set_no_low_power_alert.md)
+- [禁弹出 “使用推送通知来连接 iTunes” 弹窗开关](set_no_need_pushid_alert.md)
+- [设置设备名](set_device_name.md)
+- [设置设备的屏幕背光度](set_brightness.md)
+- [设置设备全局音量](set_volume.md)

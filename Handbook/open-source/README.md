@@ -1,4 +1,5 @@
-## 已集成的开源扩展库 (open-source)
+## 已集成的开源扩展库
+
 - [LuaCJSON 扩展库](luacjson.md)
 - [LuaSocket 扩展库](luasocket.md)
 - [luaiconv 编码转换扩展库](luaiconv.md)

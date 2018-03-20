@@ -1,4 +1,4 @@
-### 模拟加速计数据 (**accelerometer\.simulate**)
+### 模拟加速计数据 \(**accelerometer\.simulate**\)
 
 
 #### 声明

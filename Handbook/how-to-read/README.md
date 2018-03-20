@@ -1,4 +1,4 @@
-## 如何阅读本手册 (how-to-read)
+## 如何阅读本手册
 
 - 入门需要拥有 Lua 基础，可以参考[《Lua 5.3 中文手册》](https://cloudwu.github.io/lua53doc/manual.html)及[《Lua 5.3 函数参考》](https://www.zybuluo.com/havonz/note/564563) 
 - 示例  代码中使用 0x 开头的数字为 16 进制数 \( [什么是 16 进制数?](https://baike.baidu.com/item/%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E6%95%B0/5697828) \)

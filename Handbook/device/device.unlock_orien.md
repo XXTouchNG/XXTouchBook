@@ -1,4 +1,4 @@
-### 解锁设备屏幕旋转锁 (**device\.unlock\_orien**)
+### 解锁设备屏幕旋转锁 \(**device\.unlock\_orien**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 日期格式化相关 (**os\.date**)
+### 日期格式化相关 \(**os\.date**\)
 
 
 [os.date](http://cloudwu.github.io/lua53doc/manual.html#pdf-os.date) 第二个参数是可选参数，默认为当前时间

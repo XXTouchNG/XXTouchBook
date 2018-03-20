@@ -1,4 +1,4 @@
-### 获取当前系统 VPN 的列表 (**vpnconf\.list**)
+### 获取当前系统 VPN 的列表 \(**vpnconf\.list**\)
 
 
 #### 声明

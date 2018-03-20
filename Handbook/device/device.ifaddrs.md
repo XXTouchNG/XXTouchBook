@@ -1,4 +1,4 @@
-### 获取设备所有的接口 IP (**device\.ifaddrs**)
+### 获取设备所有的接口 IP \(**device\.ifaddrs**\)
 
 
 #### 声明

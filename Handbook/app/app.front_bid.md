@@ -1,4 +1,4 @@
-### 获取前台应用的 Bundle Identifier (**app\.front\_bid**)
+### 获取前台应用的 Bundle Identifier \(**app\.front\_bid**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 通过应用程序 bid 获取应用的本地化名字 (**app\.localized\_name**)
+### 通过应用程序 bid 获取应用的本地化名字 \(**app\.localized\_name**\)
 
 
 #### 声明

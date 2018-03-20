@@ -1,4 +1,4 @@
-### 输出图片对象到一个 JPEG 格式的文件 (**:save\_to\_jpeg\_file**)
+### 输出图片对象到一个 JPEG 格式的文件 \(**:save\_to\_jpeg\_file**\)
 
 
 #### 声明

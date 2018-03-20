@@ -1,4 +1,4 @@
-### 获取当前设备充电状态 (**device\.battery\_state**)
+### 获取当前设备充电状态 \(**device\.battery\_state**\)
 
 
 #### 声明

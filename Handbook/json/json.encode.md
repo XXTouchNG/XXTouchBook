@@ -1,4 +1,4 @@
-### 将 Lua 值转成 JSON 字符串 (**json\.encode**)
+### 将 Lua 值转成 JSON 字符串 \(**json\.encode**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 从字符串加载一个表 (**table\.load\_string**)
+### 从字符串加载一个表 \(**table\.load\_string**\)
 
 
 #### 声明

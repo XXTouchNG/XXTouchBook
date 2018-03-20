@@ -1,4 +1,4 @@
-### 设置设备音量 (**device\.set\_volume**)
+### 设置设备音量 \(**device\.set\_volume**\)
 
 
 #### 声明

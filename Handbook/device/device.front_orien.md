@@ -1,4 +1,4 @@
-### 获取前台应用的画面方向 (**device\.front\_orien**)
+### 获取前台应用的画面方向 \(**device\.front\_orien**\)
 
 
 #### 声明

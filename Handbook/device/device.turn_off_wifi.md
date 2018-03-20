@@ -1,4 +1,4 @@
-### 关闭设备 WiFi (**device\.turn\_off\_wifi**)
+### 关闭设备 WiFi \(**device\.turn\_off\_wifi**\)
 
 
 #### 声明

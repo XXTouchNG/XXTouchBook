@@ -1,4 +1,4 @@
-### 关闭设备闪光灯 (**device\.flash\_off**)
+### 关闭设备闪光灯 \(**device\.flash\_off**\)
 
 
 #### 声明

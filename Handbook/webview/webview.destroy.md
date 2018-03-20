@@ -1,4 +1,4 @@
-### 销毁一个 webview (**webview\.destroy**)
+### 销毁一个 webview \(**webview\.destroy**\)
 
 
 #### 声明

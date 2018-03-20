@@ -1,4 +1,4 @@
-### 发起 HEAD 请求 (**http\.head**)
+### 发起 HEAD 请求 \(**http\.head**\)
 
 
 #### 声明

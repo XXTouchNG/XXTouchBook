@@ -1,4 +1,4 @@
-### 获取屏幕旋转锁锁定状态 (**device\.is\_orien\_locked**)
+### 获取屏幕旋转锁锁定状态 \(**device\.is\_orien\_locked**\)
 
 
 #### 声明

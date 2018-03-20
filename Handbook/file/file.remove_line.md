@@ -1,4 +1,4 @@
-### 移除文件中指定行 (**file\.remove\_line**)
+### 移除文件中指定行 \(**file\.remove\_line**\)
 
 
 #### 声明

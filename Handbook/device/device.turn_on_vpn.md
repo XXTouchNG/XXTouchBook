@@ -1,4 +1,4 @@
-### 连接到当前设置所选 VPN (**device\.turn\_on\_vpn**)
+### 连接到当前设置所选 VPN \(**device\.turn\_on\_vpn**\)
 
 
 #### 声明

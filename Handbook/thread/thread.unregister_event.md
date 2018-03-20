@@ -1,4 +1,4 @@
-### 反注册监听一个事件 (**thread\.unregister\_event**)
+### 反注册监听一个事件 \(**thread\.unregister\_event**\)
 
 
 #### 声明

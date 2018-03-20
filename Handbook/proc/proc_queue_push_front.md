@@ -1,4 +1,4 @@
-### 向进程队列词典头部压入一个值 (**proc\_queue\_push\_front**)
+### 向进程队列词典头部压入一个值 \(**proc\_queue\_push\_front**\)
 
 
 #### 声明

@@ -1,4 +1,4 @@
-### 导入一个视频文件到相册 (**utils\.video\_to\_album**)
+### 导入一个视频文件到相册 \(**utils\.video\_to\_album**\)
 
 
 #### 声明
