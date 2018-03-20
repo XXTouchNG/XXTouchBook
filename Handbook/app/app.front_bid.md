@@ -8,10 +8,10 @@
 
 
 #### 参数及返回值
-> - 应用程序包名
->   - 文本型，返回前台应用的 bundle identifier \(应用包名，可在 **XXT 应用程序\-\-更多\-\-应用列表** 中查看\) 
->       - 没有应用处于前台但桌面服务已加载返回 `"com.apple.springboard"`
->       - 没有应用处于前台且桌面服务尚未启动返回 `"com.apple.backboardd"`
+- 应用程序包名
+    - 文本型，返回前台应用的 bundle identifier \(应用包名，可在 **XXT 应用程序\-\-更多\-\-应用列表** 中查看\) 
+         - 没有应用处于前台但桌面服务已加载返回 `"com.apple.springboard"`
+         - 没有应用处于前台且桌面服务尚未启动返回 `"com.apple.backboardd"`
 
 
 #### 说明

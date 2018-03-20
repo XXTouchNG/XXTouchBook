@@ -8,10 +8,10 @@ pasteboard.write(数据 [, 通用类型标识 ])
 
   
 #### 参数及返回值
-> - 数据
->   - 字符串型，需要写入到剪贴板的内容
-> - 通用类型标识
->   - 文本型，可选参数，[Uniform Type Identifiers](https://developer.apple.com/library/ios/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html)，默认 "public\.utf8\-plain\-text"
+- 数据
+    - 字符串型，需要写入到剪贴板的内容
+- 通用类型标识
+    - 文本型，可选参数，[Uniform Type Identifiers](https://developer.apple.com/library/ios/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html)，默认 "public\.utf8\-plain\-text"
 
   
 #### 示例  

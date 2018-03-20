@@ -8,10 +8,10 @@ eid = thread.unregister_event(event, eid)
 
 
 #### 参数及返回值
-> - event
->   - 字符串型，代表事件名
-> - eid
->   - 整数型，事件 id，可以用于反注册监听该事件
+- event
+    - 字符串型，代表事件名
+- eid
+    - 整数型，事件 id，可以用于反注册监听该事件
 
 
 #### 说明

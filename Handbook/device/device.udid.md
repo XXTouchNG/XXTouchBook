@@ -8,8 +8,8 @@ udid = device.udid()
 
 
 #### 参数及返回值  
-> - udid
->   - 文本型，返回设备的 UDID
+- udid
+    - 文本型，返回设备的 UDID
 
 
 #### 说明

@@ -19,9 +19,9 @@ screen.keep()
 screen.keep()
 for k = 1, 640, 10 do
     for j = 1, 960, 10 do
-        --格式化为十六进制文本
+         - -格式化为十六进制文本
         color = string.format("%X", screen.get_color(k, j));
-        --输出到系统日志
+         - -输出到系统日志
         sys.log("("..k..", "..j..") Color: "..color..".");
     end
 end

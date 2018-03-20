@@ -8,9 +8,9 @@
 
 
 #### 参数及返回值
-> - 图像
->   - 图片对象，当前操作的图片对象
-> - 详细用法参考 [screen.find_color](/Handbook/screen/screen.find_color-cs.md)
+- 图像
+    - 图片对象，当前操作的图片对象
+    - 详细用法参考 [screen.find_color](/Handbook/screen/screen.find_color-cs.md)
   
   
 #### 说明

@@ -25,9 +25,9 @@ end)
 
 
 #### 状态
-> - val
->   - 注册监听则所有的 hid 事件信息都会传递到这里，极度影响脚本运行效率，不需要了请及时反注册  
->   - HID 事件中所有的触摸坐标都是以竖屏 HOME 键在下为初始化坐标系，如果需要，可以使用 [screen.rotate_xy](/Handbook/screen/screen.rotate_xy.md) 转换后使用  
+- val
+    - 注册监听则所有的 hid 事件信息都会传递到这里，极度影响脚本运行效率，不需要了请及时反注册  
+    - HID 事件中所有的触摸坐标都是以竖屏 HOME 键在下为初始化坐标系，如果需要，可以使用 [screen.rotate_xy](/Handbook/screen/screen.rotate_xy.md) 转换后使用  
 
 
 

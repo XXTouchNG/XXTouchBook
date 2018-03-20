@@ -16,12 +16,12 @@ end)
 
 
 #### 状态
-> - in
->   - 来电呼入的时候，以 xxtouch\.call\_callback 标识的进程队列词典会推入这个值
-> - out
->   - 呼出电话的时候，以 xxtouch\.call\_callback 标识的进程队列词典会推入这个值
-> - disconnected
->   - 当来电或去电挂断的时候，以 xxtouch\.call\_callback 标识的进程队列词典会推入这个值
+- in
+    - 来电呼入的时候，以 xxtouch\.call\_callback 标识的进程队列词典会推入这个值
+- out
+    - 呼出电话的时候，以 xxtouch\.call\_callback 标识的进程队列词典会推入这个值
+- disconnected
+    - 当来电或去电挂断的时候，以 xxtouch\.call\_callback 标识的进程队列词典会推入这个值
 
 
 #### 说明

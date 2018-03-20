@@ -8,8 +8,8 @@
 
 
 #### 参数及返回值
-> - 启动参数关联表
->   - 表型，返回一个用于描述当次启动的参数表，结构可以自行用 [table.deep_print](/Handbook/ext-table/table.deep_print.md) 打印查看
+- 启动参数关联表
+    - 表型，返回一个用于描述当次启动的参数表，结构可以自行用 [table.deep_print](/Handbook/ext-table/table.deep_print.md) 打印查看
 
 
 #### 说明

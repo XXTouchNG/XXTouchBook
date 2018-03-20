@@ -7,8 +7,8 @@ app.open_url(URL)
 ```
 
 #### 参数及返回值
-> - URL
->   - 文本型，需要打开的 URL ，可以打开 [URL Scheme](https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html) \([“URL Scheme” 的相关应用](/Handbook/supplement/url-scheme.md)\)  
+- URL
+    - 文本型，需要打开的 URL ，可以打开 [URL Scheme](https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/Introduction/Introduction.html) \([“URL Scheme” 的相关应用](/Handbook/supplement/url-scheme.md)\)  
 
 
 #### 说明

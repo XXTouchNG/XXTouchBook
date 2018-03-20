@@ -34,16 +34,16 @@ success = utils.add_contacts({
 
 
 #### 参数及返回值
-> - firstName
->   - 文本型，联系人姓
-> - lastName
->   - 文本型，联系人名
-> - phoneNumbers
->   - 表型，这个人的号码列表
-> - emails
->   - 表型，这个人的邮箱号列表
-> - success
->   - 布尔型，添加成功返回 true，失败返回 false
+- firstName
+    - 文本型，联系人姓
+- lastName
+    - 文本型，联系人名
+- phoneNumbers
+    - 表型，这个人的号码列表
+- emails
+    - 表型，这个人的邮箱号列表
+- success
+    - 布尔型，添加成功返回 true，失败返回 false
 
 
 #### 说明

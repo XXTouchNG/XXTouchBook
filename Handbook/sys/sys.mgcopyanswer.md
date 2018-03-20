@@ -8,10 +8,10 @@
 
 
 #### 参数及返回值
-> - 问题
->   - 文本型，问题名字，一些 问题名字 参考 [MobileGestalt.h](https://github.com/Cykey/ios-reversed-headers/blob/master/MobileGestalt/MobileGestalt.h)
-> - 答案
->   - 字符串型 或 表型 或 实数型 或 整数型 或 布尔型 或 nil，系统的回复，如果问题不被支持，则返回 nil
+- 问题
+    - 文本型，问题名字，一些 问题名字 参考 [MobileGestalt.h](https://github.com/Cykey/ios-reversed-headers/blob/master/MobileGestalt/MobileGestalt.h)
+- 答案
+    - 字符串型 或 表型 或 实数型 或 整数型 或 布尔型 或 nil，系统的回复，如果问题不被支持，则返回 nil
 
 
 #### 说明

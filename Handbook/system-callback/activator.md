@@ -13,8 +13,8 @@ end)
 
 
 #### 状态
-> - val
->   - 当配置了 [Activator](http://cydia.saurik.com/package/libactivator/) 回调并且触发了响应的 [Activator](http://cydia.saurik.com/package/libactivator/) 事件的时候，事件的详情会传到这里
+- val
+    - 当配置了 [Activator](http://cydia.saurik.com/package/libactivator/) 回调并且触发了响应的 [Activator](http://cydia.saurik.com/package/libactivator/) 事件的时候，事件的详情会传到这里
 
 
 #### 说明
