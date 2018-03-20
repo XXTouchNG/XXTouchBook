@@ -49,6 +49,14 @@ rm -rf _book
 
 elif [ "${BUILD_ACTION}" == "install" ]; then
 
+# echo "Check environment..."
+# node -v
+# gitbook -V
+
+# echo "Install dependencies..."
+# npm install -g gitbook-cli
+# gem install xcpretty
+
 echo "Install plugins..."
 gitbook install
 
