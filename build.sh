@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BUILD_ACTION="${1:-deploy}"
+BUILD_ACTION="${1:-help}"
 
 
 
@@ -30,11 +30,7 @@ echo $NODE_LIST > sitemap.txt
 echo "Sync to server..."
 rsync -avz --progress _book/ root@${XXT_BOOK_IP}:/home/www
 
-fi
-
-
-
-if [ "${BUILD_ACTION}" == "preview" ]; then
+elif [ "${BUILD_ACTION}" == "preview" ]; then
 
 # 1 - Clean
 echo "Clean caches..."
@@ -45,30 +41,23 @@ rm -f _book/README.md.time
 echo "Build book..."
 gitbook serve . --log=debug
 
-fi
-
-
-
-if [ "${BUILD_ACTION}" == "clean" ]; then
+elif [ "${BUILD_ACTION}" == "clean" ]; then
 
 # 1 - Clean
 echo "Clean caches..."
 rm -rf _book
 
-fi
+elif [ "${BUILD_ACTION}" == "install" ]; then
 
-
-
-if [ "${BUILD_ACTION}" == "install" ]; then
+echo "Install plugins..."
+gitbook install
 
 echo "Apply patches..."
 cp -p "./.gitbook_resources/expandable-chapters.js" "./node_modules/gitbook-plugin-expandable-chapters/book/"
 cp -p "./.gitbook_resources/generateBook.js" "$HOME/.gitbook/versions/3.2.3/lib/output/"
 cp -p "./.gitbook_resources/onPage.js" "$HOME/.gitbook/versions/3.2.3/lib/output/website/"
 
-fi
-
-if [ "${BUILD_ACTION}" == "verify" ]; then
+elif [ "${BUILD_ACTION}" == "verify" ]; then
 
 echo "Build tools..."
 xcodebuild build -project ./FixReadme/FixReadme.xcodeproj -scheme FixReadme -derivedDataPath ./XcodeBuild | xcpretty --color
@@ -77,8 +66,8 @@ cp -p ./XcodeBuild/Build/Products/Debug/FixReadme ./FixReadmeSwift
 echo "Verify changes..."
 ./FixReadmeSwift
 
+else
+
+echo "Usage: ${0} {deploy|preview|clean|install|verify|help}"
+
 fi
-
-
-
-echo "Done."

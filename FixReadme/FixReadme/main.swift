@@ -142,7 +142,7 @@ class Chapter: CustomStringConvertible {
                                         continue
                                     }
                                 } else {
-                                    print("[Warning] Readme detected: " + path + " ... skip")
+                                    print("[Info] Readme detected: " + path + " ... skip")
                                 }
                             }
                         }
@@ -199,19 +199,21 @@ class Chapter: CustomStringConvertible {
 setbuf(__stdoutp, nil);
 var contents = try? String.init(contentsOfFile: "SUMMARY.md")
 if let contents = contents {
-    let chap = Chapter.init(titleLine: "[XXTouch 知识库](SUMMARY.md)", contents: contents, level: 0)
+    let chap = Chapter.init(titleLine: "[Summary](SUMMARY.md)", contents: contents, level: 0)
+    chap.titleFlagString = "#"
     if let path = chap.path {
-        if chap.description != chap.content {
+        let desc = chap.readme(with: 0, stripPrefix: nil)
+        if desc != chap.content {
             print("[Warning] Summary updated: " + path)
             print("\nOriginal\n----\n\(chap.content ?? "")\n----\n")
-            print("\nNew\n----\n\(chap.description)\n----\n")
+            print("\nNew\n----\n\(desc)\n----\n")
             print("Override it using text above? (y/n) ", terminator: "")
             let key = InputHelper.rawInput().trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
             if key.hasPrefix("y") || key.count == 0 {
                 let newPath = "\(Date.init().timeIntervalSince1970)-\(path)"
-                try? chap.description.write(toFile: newPath, atomically: true, encoding: String.Encoding.utf8)
+                try? desc.write(toFile: newPath, atomically: true, encoding: String.Encoding.utf8)
                 print("[Succeed] New summary saved at: \(newPath)")
-                chap.content = chap.description
+                chap.content = desc
             }
         }
     }
