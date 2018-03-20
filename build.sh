@@ -74,8 +74,18 @@ cp -p ./XcodeBuild/Build/Products/Debug/FixReadme ./FixReadmeSwift
 echo "Verify changes..."
 ./FixReadmeSwift
 
+elif [ "${BUILD_ACTION}" == "archive" ]; then
+
+TIMESTAMP=`date +%s`
+
+echo "Archiving..."
+mkdir Releases
+SAVE_PATH="./Releases/XXTouchBook_${TIMESTAMP}.tgz"
+tar czvf "${SAVE_PATH}" "_book"
+echo "New archive has been saved to: ${SAVE_PATH}"
+
 else
 
-echo "Usage: ${0} {deploy|preview|clean|install|verify|help}"
+echo "Usage: ${0} {deploy|preview|clean|install|verify|archive|help}"
 
 fi

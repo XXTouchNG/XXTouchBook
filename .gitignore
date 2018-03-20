@@ -2,8 +2,11 @@ node_modules/
 _book/
 
 XcodeBuild/
+Releases/
 
 package-lock.json
 build.sh
 FixReadmeSwift
+
+sitemap.txt
 
