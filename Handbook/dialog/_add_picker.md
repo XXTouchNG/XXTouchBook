@@ -22,6 +22,15 @@
 #### 说明
 > 给对话框加上一个选择器  
 
+
 #### 示例  
+```
+local c, s = dialog():add_picker('一个选择器', {'选择1', '选择2', '选择3'}):show()
+sys.alert('你的选择是：'..s['一个选择器'])
+```
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)  
+
+
+#### 完整示例
 [`本章结尾 :show() `](/Handbook/dialog/_show.md)  
 

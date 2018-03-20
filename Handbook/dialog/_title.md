@@ -19,5 +19,11 @@
 
 
 #### 示例  
+```
+dialog():title('标题'):show()
+```
+
+
+#### 完整示例
 [`本章结尾 :show() `](/Handbook/dialog/_show.md)  
 

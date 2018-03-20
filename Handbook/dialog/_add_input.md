@@ -23,5 +23,13 @@
 
 
 #### 示例  
-[`本章结尾 :show() `](/Handbook/dialog/_show.md)
+```
+local c, s = dialog():add_input('一个输入框', '默认内容'):show()
+sys.alert('输入的内容是：'..s['一个输入框'])
+```
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)  
+
+
+#### 完整示例
+[`本章结尾 :show() `](/Handbook/dialog/_show.md)  
 

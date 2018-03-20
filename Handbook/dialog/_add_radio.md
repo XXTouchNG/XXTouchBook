@@ -26,5 +26,13 @@
 
 
 #### 示例  
-[`本章结尾 :show() `](/Handbook/dialog/_show.md)
+```
+local c, s = dialog():add_radio('一个单选组', {'单选1', '单选2', '单选3'}):show()
+sys.alert('你的选择是：'..s['一个单选组'])
+```
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)  
+
+
+#### 完整示例
+[`本章结尾 :show() `](/Handbook/dialog/_show.md)  
 

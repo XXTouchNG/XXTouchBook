@@ -64,5 +64,5 @@ print("你最喜欢游戏:"..selects["最喜欢的游戏"])
 --
 sys.alert(print.out())
 ```
-**注**：上述代码中使用了非本章函数 [`utils.is_launch_via_app`](/Handbook/utils/utils.is_launch_via_app.md)、 [`sys.alert`](/Handbook/sys/sys.alert.md)
+**注**：上述代码中使用了非本章函数 [`utils.is_launch_via_app`](/Handbook/utils/utils.is_launch_via_app.md)、 [`sys.alert`](/Handbook/sys/sys.alert.md)、[`print`](/Handbook/develop-helper/print.md)、[`print.out`](/Handbook/develop-helper/print.out.md)  
 

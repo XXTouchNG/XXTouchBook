@@ -20,3 +20,12 @@
 > 配置将以文件形式保存在 /private/var/mobile/Media/1ferver/uicfg/**<配置名>**.xcfg  
 > 与旧版 :config 方法等效  
 
+
+#### 示例  
+```
+dialog():set_config('配置名'):show()
+```
+
+
+#### 完整示例
+[`本章结尾 :show() `](/Handbook/dialog/_show.md)  

@@ -20,5 +20,10 @@
 
 
 #### 示例  
-[`本章结尾 :show() `](/Handbook/dialog/_show.md)  
+```
+dialog():config('配置名'):show()
+```
 
+
+#### 完整示例
+[`本章结尾 :show() `](/Handbook/dialog/_show.md)  

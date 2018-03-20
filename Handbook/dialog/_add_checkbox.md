@@ -25,5 +25,20 @@
 
 
 #### 示例  
+```
+local c, s = dialog()
+:add_checkbox('一个多选组', {'选项1', '选项2', '选项3', '选项4'}, {'选项1', '选项3'})
+:show()
+print('一共选中了 '..#(s['一个多选组'])..' 个选项')
+print('选中列表如下')
+for _, oname in ipairs(s['一个多选组']) do
+    print(oname)
+end
+sys.alert(print.out())
+```
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)、[`print`](/Handbook/develop-helper/print.md)、[`print.out`](/Handbook/develop-helper/print.out.md)  
+
+
+#### 完整示例
 [`本章结尾 :show() `](/Handbook/dialog/_show.md)  
 

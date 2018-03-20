@@ -19,5 +19,12 @@
 
 
 #### 示例  
+```
+dialog():add_image(screen.image()):show() -- 弹出一张屏幕截图
+```
+**注**：上述代码中使用了非本章函数 [`screen.image`](/Handbook/screen/screen.image.md)
+
+
+#### 完整示例
 [`本章结尾 :show() `](/Handbook/dialog/_show.md)  
 

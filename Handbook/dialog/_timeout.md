@@ -19,6 +19,13 @@
 #### 说明
 > 配置对话框自动消失时间  
 
+
 #### 示例  
+```
+dialog():timeout(3):show()
+```
+
+
+#### 完整示例
 [`本章结尾 :show() `](/Handbook/dialog/_show.md)  
 

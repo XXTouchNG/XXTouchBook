@@ -32,5 +32,13 @@
 
 
 #### 示例  
+```
+local c, s = dialog():add_range('一个数值', {222, 666, 1}, 333):show()
+sys.alert('数值是：'..s['一个数值'])
+```
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)  
+
+
+#### 完整示例
 [`本章结尾 :show() `](/Handbook/dialog/_show.md)  
 

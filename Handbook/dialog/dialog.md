@@ -25,5 +25,11 @@ dialog('Hello, XXTouch!', 10)
 
 
 #### 示例  
+```
+dialog():show()
+```
+
+
+#### 完整示例
 [`本章结尾 :show() `](/Handbook/dialog/_show.md)  
 
