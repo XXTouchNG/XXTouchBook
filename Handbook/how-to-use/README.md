@@ -9,10 +9,10 @@
 - 内置脚本模块存放目录为 `/var/mobile/Media/1ferver/lua/`
 
 ### 售前及安装答疑
-- [前往查看](https://www.zybuluo.com/xxtouch/note/712055)
+- [前往查看](/FAQ.md)
 
 ### 用户使用图文说明
-- [前往查看](https://www.zybuluo.com/xxtouch/note/378784)
+- [前往查看](/ABC.md)
 
 ### 普通用户交流 QQ 群
 - [与其它用户交流 483853614](//shang.qq.com/wpa/qunwpa?idkey=95df3c05d706956387a255ac2979a1be21b92daccdf6caaf4aa662ac4512c636)
