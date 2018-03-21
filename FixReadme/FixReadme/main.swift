@@ -76,6 +76,12 @@ class Chapter: CustomStringConvertible {
                     let chap = Chapter.init(titleLine: line, contents: chapContent, level: level + 1)
                     chap.superChapter = self
                     if let path = chap.path {
+                        if let cont = chap.content {
+                            // replace crlf with lf
+                            let newCont = cont.replacingOccurrences(of: "\r\n", with: "\n")
+                            try? newCont.write(toFile: path, atomically: true, encoding: String.Encoding.utf8)
+                            chap.content = newCont
+                        }
                         if !chap.exists {
                             print("[Error] Missing chapter: " + path)
                             print("Continue? (y/n) ", terminator: "")

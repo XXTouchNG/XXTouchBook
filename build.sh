@@ -64,6 +64,7 @@ echo "Apply patches..."
 cp -p "./.gitbook_resources/expandable-chapters.js" "./node_modules/gitbook-plugin-expandable-chapters/book/"
 cp -p "./.gitbook_resources/generateBook.js" "$HOME/.gitbook/versions/3.2.3/lib/output/"
 cp -p "./.gitbook_resources/onPage.js" "$HOME/.gitbook/versions/3.2.3/lib/output/website/"
+cp -p "./.gitbook_resources/ace.css" "./node_modules/gitbook-plugin-ace/assets/"
 
 elif [ "${BUILD_ACTION}" == "verify" ]; then
 

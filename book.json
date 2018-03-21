@@ -19,7 +19,8 @@
         "fontsettings",
         "expandable-chapters",
         "-livereload",
-        "splitter"
+        "splitter",
+        "ace"
     ],
     "pluginsConfig": {
         "github": {
@@ -33,9 +34,6 @@
 		},
 		"fontsettings": {
 			"family": "sans"
-        },
-        "theme-default": {
-            "showLevel": true
         }
     }
 }
