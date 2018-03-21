@@ -33,6 +33,9 @@
 		},
 		"fontsettings": {
 			"family": "sans"
+        },
+        "theme-default": {
+            "showLevel": true
         }
     }
 }
