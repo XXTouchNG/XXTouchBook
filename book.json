@@ -19,15 +19,11 @@
         "fontsettings",
         "expandable-chapters",
         "-livereload",
-        "splitter",
-        "ace"
+        "splitter"
     ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/Lessica/XXTouchBook"
-        },
-        "baidu": {
-            "token": "26b28768323fe50fa24e2017a52b7f9a"
         },
         "sitemap": {
             "hostname": "https://www.xxtouch.com/"
