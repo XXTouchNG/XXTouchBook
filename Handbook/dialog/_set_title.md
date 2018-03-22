@@ -20,6 +20,6 @@
 
 
 #### 示例  
-```
+```lua
 dialog():set_title('标题'):show()
 ```

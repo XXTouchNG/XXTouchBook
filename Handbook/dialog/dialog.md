@@ -25,7 +25,7 @@ dialog('Hello, XXTouch!', 10)
 
 
 #### 示例  
-```
+```lua
 dialog():show()
 ```
 

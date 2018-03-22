@@ -67,7 +67,7 @@ end
 
 
 #### http\.get 封装获取外网IP实例  
-```
+```lua
 function get_ip()
 	local done = false
 	thread.dispatch(function()

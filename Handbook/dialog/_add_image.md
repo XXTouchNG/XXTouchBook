@@ -19,7 +19,7 @@
 
 
 #### 示例  
-```
+```lua
 dialog():add_image(screen.image()):show() -- 弹出一张屏幕截图
 ```
 **注**：上述代码中使用了非本章函数 [`screen.image`](/Handbook/screen/screen.image.md)

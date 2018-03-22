@@ -21,7 +21,7 @@
 
 
 #### 示例  
-```
+```lua
 dialog():timeout(3):show()
 ```
 

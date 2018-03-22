@@ -22,7 +22,7 @@
 
 
 #### 示例  
-```
+```lua
 dialog():set_config('配置名'):show()
 ```
 

@@ -23,7 +23,7 @@
 
 
 #### 示例  
-```
+```lua
 local c, s = dialog():add_input('一个输入框', '默认内容'):show()
 sys.alert('输入的内容是：'..s['一个输入框'])
 ```

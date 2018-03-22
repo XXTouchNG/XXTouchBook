@@ -32,7 +32,7 @@
 
 
 #### 示例  
-```
+```lua
 local c, s = dialog():add_range('一个数值', {222, 666, 1}, 333):show()
 sys.alert('数值是：'..s['一个数值'])
 ```

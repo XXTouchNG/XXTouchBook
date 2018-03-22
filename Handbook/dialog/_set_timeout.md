@@ -22,7 +22,7 @@
 
 
 #### 示例  
-```
+```lua
 dialog():set_timeout(3):show() -- 3 秒超时取消提交
 --
 dialog():set_timeout(3, true):show() -- 3 秒超时并提交

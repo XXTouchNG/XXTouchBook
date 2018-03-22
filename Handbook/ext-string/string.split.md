@@ -39,7 +39,7 @@ sys.alert('验证码是：'..t[1])
 **注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)  
 
 
-- 封装示例 1  
+#### 封装示例 1  
 ```lua
 -- 取文本中间部分的封装 (找不到匹配返回 nil) 
 function str_middle(str, sep1, sep2)
@@ -75,7 +75,7 @@ sys.alert('验证码是：'..r)
 **注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)  
 
 
-- 封装示例 2  
+#### 封装示例 2  
 ```lua
 -- 取绝对路径的文件名
 function strip_dirname(path)
@@ -100,7 +100,7 @@ sys.alert(strip_filename("/private/var/mobile/Media/1ferver/lua/scripts/1.lua"))
 
 
 
-- 可能相关的示例 (将中英混合的字符串爆开成一个个的字符)  
+#### 可能相关的示例 (将中英混合的字符串爆开成一个个的字符)  
 ```lua
 -- 这不是使用 string.split 实现的例子
 function string_explode(str)
