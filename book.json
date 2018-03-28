@@ -19,7 +19,8 @@
         "fontsettings",
         "expandable-chapters",
         "-livereload",
-        "splitter"
+        "splitter",
+        "scripts"
     ],
     "pluginsConfig": {
         "github": {
@@ -30,6 +31,11 @@
 		},
 		"fontsettings": {
 			"family": "sans"
+        },
+        "scripts": {
+            "files": [
+                "./static/js/fix.js"
+            ]
         }
     }
 }
