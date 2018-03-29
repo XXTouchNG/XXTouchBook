@@ -5,7 +5,7 @@
 - 是一款用于越狱 iOS 环境下的自动化模拟操作的软件
 - 开发人员可以编写 Lua 脚本让 XXTouch 运行 来完成一些日常自动化的工作。但它本身没有集成也不会自动编写具有针对性的具体的自动化工作脚本。
 - 希望自行编写脚本，可参考
-    - [《XXTouch iOS 开发手册》](https://kb.xxtouch.com/Handbook/)
+    - [《XXTouch iOS 开发手册》](https://kb.xxtouch.com/Handbook/index.html)
     - [《Lua 5.3 参考手册 》](https://cloudwu.github.io/lua53doc/manual.html)
 
 ---
@@ -74,7 +74,7 @@
     - 年卡（366 天）授权码 30 元/设备
 - [授权码购买地址](https://www.xxtouch.com/buy)
     - 授权码是您的购买于 XXTouch 唯一的凭据，请一定保管好
-    - 授权码费用仅为 XXTouch 应用程序本体的使用费，不包含具体脚本功能开发费及相关任何程序的教学费。**请务必于购买授权码之前知晓您购买授权码后的[权利](#我购买了-xxtouch-后会获得哪些权利)以及购买后将解除的[限制](#没有授权的-xxtouch-有什么限制)**
+    - 授权码费用仅为 XXTouch 应用程序本体的使用费，不包含具体脚本功能开发费及相关任何程序的教学费，也不会赋予你在论坛、QQ 群等社区社交特权。**请务必于购买授权码之前知晓您购买授权码后的[权利](#我购买了-xxtouch-后会获得哪些权利)以及购买后将解除的[限制](#没有授权的-xxtouch-有什么限制)**
 - [如何使用授权码？](https://www.xxtouch.com/docs/manual#授权码如何激活)
 
 ---
@@ -134,8 +134,8 @@
 ---
 
 ### 如何在电脑上给 XXTouch 开发脚本？
-- [下载工具](https://www.xxtouch.com/docs/dev#开发及周边工具下载)
-- [阅读手册](https://www.xxtouch.com/docs/dev#如何阅读本手册)
+- [下载工具](https://kb.xxtouch.com/Handbook/supplement/dev-tools.html)
+- [阅读手册](https://kb.xxtouch.com/Handbook/index.html)
 - [与其它开发者交流（XXTouch 开发者 QQ 群：40898074）](//shang.qq.com/wpa/qunwpa?idkey=7647f6b82262c03911735b21318b20167e4e1f5b4c3f94de83c1a1c4e58b93f2)
 
 ---
@@ -155,7 +155,7 @@
 - 停用设备上的网络代理及 VPN
 - 确保设备的网络连接畅通
 - 然后确定设备时间及时区是否正确
-    - 可以 [百度搜索“时间”](https://www.baidu.com/s?wd=时间) 然后 [手动校准](#ios-系统时间在哪里调整)
+    - 可以 [百度搜索“时间”](https://www.baidu.com/s?wd=时间) 然后手动校准（可参考本页**iOS 系统时间在哪里调整？**小节）
 
 ---
 
@@ -332,7 +332,7 @@
 
 ### 授权没有到期却弹出授权无效的提示？
 - 将时间的时区调整到北京时间的正确日期正确时间
-    - 时间容差 5 分钟，可以 [百度搜索“时间”](https://www.baidu.com/s?wd=时间) 然后 [手动校准](#ios-系统时间在哪里调整)
+    - 时间容差 5 分钟，可以 [百度搜索“时间”](https://www.baidu.com/s?wd=时间) 然后手动校准（可参考本页**iOS 系统时间在哪里调整？**小节）
 - 确保设备的网络连接畅通再启动一次脚本
     - 设备上的网络代理及 VPN 连接可能导致网络连接不畅通
 - 截图并联系经销商（如果是于 [发卡平台](https://www.xxtouch.com/buy) 购买的找 QQ 1004695100）
@@ -341,7 +341,7 @@
 
 ### 进入授权界面提示“无法连接到授权服务器。”或“阿里云网关错误：Timestamp Expired”怎么办？
 - 将时间的时区调整到北京时间的正确日期正确时间
-    - 时间容差 5 分钟，可以 [百度搜索“时间”](https://www.baidu.com/s?wd=时间) 然后 [手动校准](#ios-系统时间在哪里调整)
+    - 时间容差 5 分钟，可以 [百度搜索“时间”](https://www.baidu.com/s?wd=时间) 然后手动校准（可参考本页 **iOS 系统时间在哪里调整？**小节）
 - 确保设备的网络连接畅通
     - 设备上的网络代理及 VPN 连接可能导致网络连接不畅通
 - 截图并联系经销商（如果是于 [发卡平台](https://www.xxtouch.com/buy) 购买的找 QQ 1004695100）
@@ -410,7 +410,7 @@
 ---
 
 ### 脚本可以做什么？
-- [《XXTouch iOS 开发手册》](https://www.xxtouch.com/docs/dev)
+- [《XXTouch iOS 开发手册》](https://kb.xxtouch.com/Handbook/index.html)
 
 ---
 
