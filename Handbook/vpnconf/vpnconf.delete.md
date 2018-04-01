@@ -30,3 +30,23 @@ end
 ```
 **注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)
 
+
+#### 遍历删除所有 VPN 配置示例   
+```lua
+-- 删除所有VPN 删除全部VPN VPN全部删除 全部VPN删除
+local vpnlist = vpnconf.list()
+if vpnlist then
+    for _,v in ipairs(vpnlist) do
+    	if (vpnconf.delete(v.VPNID)) then
+    		sys.log('成功删除：'..v.dispName..'('..v.VPNID..')')
+    	else
+    		sys.log('无法删除：'..v.dispName..'('..v.VPNID..')')
+    	end
+    end
+    sys.alert('操作完成！')
+else
+    sys.alert('获取列表失败，确定人品没有问题？')
+end
+```
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)、[`sys.log`](/Handbook/sys/sys.log.md)
+
