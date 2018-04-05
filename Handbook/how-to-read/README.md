@@ -11,4 +11,4 @@
 ---
 
 [XXTouch-iOS-开发手册旧版文档](https://www.xxtouch.com/docs/dev.bak.html)  
-[XXTouch-iOS-开发手册离线档-20180404.zip](http://xxtouch2.oss-cn-hangzhou.aliyuncs.com/XXTouch-iOS-%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%E7%A6%BB%E7%BA%BF%E6%A1%A3-20180404.zip)  
+[XXTouch-iOS-开发手册离线档-20180404.zip](https://apt-pages.xxtouch.com/others/XXTouch-iOS-%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%E7%A6%BB%E7%BA%BF%E6%A1%A3-20180404.zip)  

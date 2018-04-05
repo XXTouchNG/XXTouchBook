@@ -28,7 +28,7 @@
 
 
 #### 示例  
-[XXT 取色器 1.0.12 Windows 版.zip](res/XXT 取色器 1.0.12 Windows 版.zip)  
+[XXT 取色器 1.0.12 Windows 版.zip](https://apt-pages.xxtouch.com/others/XXTouch%E7%94%B5%E8%84%91%E7%AB%AF%E5%B7%A5%E5%85%B7%E9%9B%86/XXT%20%E5%8F%96%E8%89%B2%E5%99%A8%201.0.12%20Windows%20%E7%89%88.zip)  
 ```lua
 -- 示例 1 (使用 XXT 取色器 Shift + 鼠标左键框选图像上的区域 可直接生成这样的代码) ：
 x, y = screen.find_image( -- 原图位置 左上: 354, 274 | 右下: 358, 284

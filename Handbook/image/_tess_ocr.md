@@ -37,7 +37,7 @@ require("image.tess_ocr") -- 需要提前加载
 > 性能上，该函数操作过程不产生数据拷贝  
 > 如果需要做简体中文或是其它语言文字识别  
 > 需要手动导入相关的字库文件到设备的 ```/var/mobile/Media/1ferver/tessdata/``` 目录  
-> 这里提供 [简体中文字库 (点击下载) ](http://xxtouch2.oss-cn-hangzhou.aliyuncs.com/chi_sim.traineddata)  
+> 这里提供 [简体中文字库 (点击下载) ](https://apt-pages.xxtouch.com/others/chi_sim.traineddata)  
 > 如果想自己进行 tesseract 字库训练可以 [百度搜索“tesseract 训练”](https://www.baidu.com/s?wd=tesseract%20训练)  
 
 

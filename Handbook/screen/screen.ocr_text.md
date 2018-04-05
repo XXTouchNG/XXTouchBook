@@ -29,7 +29,7 @@
 > 内置 OCR 识别库引擎为 tesseract 3\.02 版，版本不对或者字库文件损坏会导致 XXTouch 脚本服务崩溃。这里提供适用于 XXTouch 的 tesseract 引擎版本为 3\.05 版的 OCR 识别库 [tess_ocr_1.2_with_tesseract_3.05.01.zip](http://static.zybuluo.com/xxtouch/fxnwlp9ic4mzf01shxegkier/tess_ocr_1.2_with_tesseract_3.05.01.zip)  
 > XXTouch 已内置 eng 识别库 \[A\-Za\-z0\-9\] 能识别常规英文和数字  
 > 如果需要做简体中文或是其它语言文字识别，需要手动导入相关的字库文件到设备的 `/var/mobile/Media/1ferver/tessdata/` 目录  
-> 这里提供 [简体中文字库 (点击下载) ](http://xxtouch2.oss-cn-hangzhou.aliyuncs.com/chi_sim.traineddata)  
+> 这里提供 [简体中文字库 (点击下载) ](https://apt-pages.xxtouch.com/others/chi_sim.traineddata)  
 > **`二值化选项` 手动二值化在 1\.1\.0\-1 版以上方可使用**  
 > **`结果详情` 在 1\.1\.3\-1 版以上方可使用**  
 > 如果想自己进行 tesseract 字库训练可以 [百度搜索“tesseract 训练”](https://www.baidu.com/s?wd=tesseract%20训练)  
