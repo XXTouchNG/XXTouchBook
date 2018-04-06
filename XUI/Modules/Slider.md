@@ -6,6 +6,7 @@
 |--------|----------|----------|----------|
 |min|数值|滑块最小值|\-|
 |max|数值|滑块最大值|\-|
+|step|数值|调节歩长, 滑块会自动紧贴最近的步长值|\-|
 |showValue|布尔型|是否显示当前滑块的值|可选|
 
 *此组件不支持 **label/icon***
@@ -23,9 +24,10 @@
 {
     showValue = true;
     defaults = "com.yourcompany.yourscript";
-    min = 1;
-    default = 5;
-    max = 10;
+    min = 0.1;
+    default = 0.5;
+    max = 1;
+    step = 0.1;
     label = "Slider";
     cell = "Slider";
     key = "slider";
