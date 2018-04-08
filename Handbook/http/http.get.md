@@ -43,10 +43,11 @@ local code, res_headers, body = http.get("http://www.baidu.com", 1, {
     ["User-Agent"] = "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0)"; -- 模拟 IE8 的请求
     ["Cookie"] = "大佬你会不会啊？"; -- 顺带 Cookie 提交
 })
-if code==200 then -- 如果返回的状态码是 HTTP_OK
-    sys.alert(body) -- 输出百度首页的网页 HTML
+if code == 200 then -- 如果返回的状态码是 HTTP_OK
+    sys.alert(body) -- 输出百度首页的网页 HTML 内容
 end
 ```
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)
 
 
 #### 示例  
@@ -95,4 +96,8 @@ end
 sys.alert(get_ip())
 ```
 **注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)、[`sys.toast`](/Handbook/sys/sys.toast.md)、[`sys.msleep`](/Handbook/sys/sys.msleep.md)、[`sys.rnd`](/Handbook/sys/sys.rnd.md)、[`thread.dispatch`](/Handbook/thread/thread.dispatch.md)、[`device.front_orien`](/Handbook/device/device.front_orien.md)  
+
+
+#### http\.get 根据当前网络获取 GPS 位置及城市名称实例  
+转至论坛：https://club.xxtouch.com/forum.php?mod=viewthread&tid=247
 

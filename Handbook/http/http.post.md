@@ -44,9 +44,25 @@ local code, res_headers, body = http.post("http://www.baidu.com", 1, {
     ["User-Agent"] = "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0)", -- 模拟 IE8 的请求
     ["Cookie"] = "大佬你会不会啊？"; -- 顺带 Cookie 提交
 }, "需要发送过去的数据")
-if code==200 then -- 如果返回的状态码是 HTTP_OK
-    sys.alert(body) -- 输出百度首页的网页html
+if code == 200 then -- 如果返回的状态码是 HTTP_OK
+    sys.alert(body) -- 输出百度首页的网页 HTML 内容
 end
 ```
-**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)  
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)   
+
+
+#### POST 提交表单示例  
+```lua
+local c, h, r = http.post('http://httpbin.org/post', 60, {}, 'name=havonz&qq=1004695100&wechat=havonz')
+if (c == 200) then
+    sys.alert(r, 0, '提交成功')
+else
+    if (c == -1) then
+        sys.alert('请求失败，请检查网络连接', 0, '连接超时')
+    else
+        sys.alert('错误代码 #'..c..'\n'..r, 0, 'HTTP 错误')
+    end
+end
+```
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)
 
