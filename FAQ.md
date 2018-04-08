@@ -242,7 +242,6 @@
 可 **逐条** 尝试下面的方案
 
 - 尝试 1：
-    - iOS 9\.2 以上可尝试从 Cydia 的已安装列表中卸载掉 Stashing for iOS
     - 从 Cydia 重新安装 XXTouch 最新版，确保 **没有** 出现红字（[《从 Cydia 安装 XXTouch 失败（出现红字/黄字）怎么办？》](#%E4%BB%8E-cydia-%E5%AE%89%E8%A3%85%E6%88%96%E6%9B%B4%E6%96%B0-xxtouch-%E5%A4%B1%E8%B4%A5%E5%87%BA%E7%8E%B0%E7%BA%A2%E5%AD%97%E9%BB%84%E5%AD%97%E6%80%8E%E4%B9%88%E5%8A%9E)）
     - 重启设备（可能还需要重新激活越狱）
 - 尝试 2：
