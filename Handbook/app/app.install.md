@@ -19,8 +19,9 @@
 #### 说明
 > 后台安装一个 ipa 格式的安装包  
 > **安装的完成之前脚本不能被自然终止并会一直阻塞**  
-> 调用此函数前需确保在目标设备中已安装过 AppSync 插件或 [IPA补丁 (iOS7~iOS10) .deb](https://apt-pages.xxtouch.com/others/IPA%E8%A1%A5%E4%B8%81%EF%BC%88iOS7~iOS10%EF%BC%89.deb)  
-
+> 调用此函数前需确保在目标设备中已安装过 AppSync 插件 [兼容 iOS 7~11 的 IPA 补丁.deb](https://apt-pages.xxtouch.com/others/%E5%85%BC%E5%AE%B9iOS11%E7%9A%84IPA%E8%A1%A5%E4%B8%81%28app.install%E4%BE%9D%E8%B5%96%29.deb)  
+> 可用最新版 X.X.T. 扫描下面二维码下载并安装 AppSync 插件  
+> ![兼容 iOS 11 的 IPA 补丁.png](AppSyncUnified.png)  
 
 #### 示例  
 ```lua
