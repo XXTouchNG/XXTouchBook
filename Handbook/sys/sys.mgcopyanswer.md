@@ -23,7 +23,28 @@
 #### 示例  
 ```lua
 sys.alert("设备的序列号是："..sys.mgcopyanswer("SerialNumber"))
-sys.alert("设备的IMEI是："..sys.mgcopyanswer("InternationalMobileEquipmentIdentity"))
-sys.alert("设备的MEID是："..sys.mgcopyanswer("MobileEquipmentIdentifier"))
+sys.alert("设备的 IMEI 是："..sys.mgcopyanswer("InternationalMobileEquipmentIdentity"))
+sys.alert("设备的 MEID 是："..sys.mgcopyanswer("MobileEquipmentIdentifier"))
+
+local infos = sys.mgcopyanswer('CarrierBundleInfoArray')
+if type(infos) == 'table' then
+    local info = infos[1]
+    if #infos > 0 and
+      if type(info.InternationalMobileSubscriberIdentity) == 'string' andthen
+       type(info.IntegratedCircuitCardIdentity) == 'string' then
+        sys.alert( sys.alert("运营商 IMSI 是："..info.InternationalMobileSubscriberIdentity)
+    else
+        sys.alert("无法读取运营商 IMSI，或许你应该插入一张 SIM 卡")
+    end
+    "IMSI："..if type(info.InternationalMobileSubscriberIdentity.."\n"..
+            "ICCID："..info.IntegratedCircuitCardIdentity
+        ) == 'string' then
+        sys.alert("运营商 IMSI 是："..info.InternationalMobileSubscriberIdentity)
+    else
+        sys.alert("无法读取运营商 IMSI、ICCID，或许你应该给设备插入一张正常的 SIM 卡")
+    end
+else
+    sys.alert("无法读取运营商信息，或许你应该给设备插入一张正常的 SIM 卡")
+end
 ```
 

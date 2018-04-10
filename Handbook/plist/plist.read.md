@@ -24,8 +24,8 @@ plist = require("plist") -- 需要先引入 plist 模块
 ```lua
 local plist = require("plist")
 local plfilename = "/var/mobile/Library/Caches/com.apple.mobile.installation.plist" --设置plist路径
-local tmp2 = plist.read(plfilename)           --读取plist文件内容并返回一个TABLE
-sys.alert(tmp2.Metadata.ProductBuildVersion)  --显示ProductBuildVersion的键值
+local tmp2 = plist.read(plfilename)                 --读取plist文件内容并返回一个TABLE
+sys.alert(tmp2['Metadata']['ProductBuildVersion'])  --显示ProductBuildVersion的键值
 ```
 **注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)
 

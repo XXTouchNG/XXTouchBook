@@ -23,6 +23,7 @@
 > 可用最新版 X.X.T. 扫描下面二维码下载并安装 AppSync 插件  
 > ![兼容 iOS 11 的 IPA 补丁.png](AppSyncUnified.png)  
 
+
 #### 示例  
 ```lua
 app.install("/User/1.ipa", true) -- 强行覆盖安装，用于降级安装 App
