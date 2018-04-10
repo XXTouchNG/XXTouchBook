@@ -11,7 +11,7 @@ xxt://xui/?bundle=%@&name=%@
 ```json
 {
     "event":"xui",
-    "bundle":"脚本包的绝对路径",
-    "name":"XUI 文件在脚本包中的相对路径"
+    "bundle":"[脚本包的绝对路径]",
+    "name":"[XUI 文件在脚本包中的相对路径]"
 }
 ```
