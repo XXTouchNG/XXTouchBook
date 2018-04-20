@@ -9,10 +9,15 @@
   
 #### 参数及返回值
 - 通用类型标识
-    - 文本型，可选参数，[Uniform Type Identifiers](https://developer.apple.com/library/ios/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html)，默认 自动判断格式
-    - **存在 通用类型标识 参数的情况下，会强制以该 通用类型标识 格式读取剪贴板中数据，若是剪贴板中数据无法以该 通用类型标识 读取，则返回空字符串**
+    - 文本型，可选参数，[Uniform Type Identifiers](https://developer.apple.com/library/ios/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html)，默认 自动判断格式  
+    存在 **通用类型标识** 参数的情况下，会强制以该 **通用类型标识** 格式读取剪贴板中数据，若是剪贴板中数据无法以该 **通用类型标识** 读取，则返回空字符串  
 - 数据
     - 字符串型，返回剪贴板中的数据，可能是文本，也可能是二进制数据，如果不能以该方式读取，则返回 `""` (空文本) 
+
+
+#### 说明
+> 从系统剪贴板中读取内容  
+> （关键字： 读取剪贴板 读取剪切板 获取剪切板 读取粘贴板 获取粘贴板 读取黏贴板 获取黏贴板）  
 
   
 #### 示例  

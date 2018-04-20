@@ -25,7 +25,7 @@
 screen.image():save_to_jpeg_file("/var/mobile/1.jpg")
 ```
 ```lua
--- 截全屏图像保存到文件并设置图片为低质量
+-- 截全屏图像保存到文件并设置图片为低质量 (关键字：有损压缩 图像压缩 图片压缩 图片质量)
 screen.image():save_to_jpeg_file("/var/mobile/1.jpg", 0.4)
 ```
 **注**：上述代码中使用了非本章函数 [`screen.image`](/Handbook/screen/screen.image.md)  

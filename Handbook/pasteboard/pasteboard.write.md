@@ -13,6 +13,9 @@ pasteboard.write(数据 [, 通用类型标识 ])
 - 通用类型标识
     - 文本型，可选参数，[Uniform Type Identifiers](https://developer.apple.com/library/ios/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html)，默认 "public\.utf8\-plain\-text"
 
+#### 说明
+> 写内容进系统剪贴板  
+>（关键字： 写入剪贴板 写入剪切板 写入粘贴板 写入黏贴板）
   
 #### 示例  
 ```lua

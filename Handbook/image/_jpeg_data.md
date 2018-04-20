@@ -23,6 +23,7 @@
 
 #### 示例  
 ```lua
+-- 截全屏图像保存到文件并设置图片为 80% 质量 (关键字：有损压缩 图像压缩 图片压缩 图片质量)
 file.writes('/var/mobile/1.jpg', screen.image():jpeg_data(0.8))
 ```
 **注**：上述代码中使用了非本章函数 [`screen.image`](/Handbook/screen/screen.image.md)、[`file.writes`](/Handbook/file/file.writes.md)
