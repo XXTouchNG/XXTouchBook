@@ -79,22 +79,47 @@ sys.alert('验证码是：'..r)
 ```lua
 -- 取绝对路径的文件名
 function strip_dirname(path)
-	local d = string.split(path, '/')
-	return d[#d]
+    local d = string.split(path, '/')
+    return d[#d]
 end
---
+
 -- 取绝对路径的目录
 function strip_filename(path)
-	local d = string.split(path, '/')
-	d[#d] = nil
-	return table.concat(d, '/')
+    local d = string.split(path, '/')
+    d[#d] = nil
+    return table.concat(d, '/')
 end
---
-sys.alert(strip_dirname("/private/var/mobile/Media/1ferver/lua/scripts/1.lua"))
--- 输出 "1.lua"
---
-sys.alert(strip_filename("/private/var/mobile/Media/1ferver/lua/scripts/1.lua"))
+
+-- 剔除路径最后一部分的扩展名（后缀名）
+function strip_extension(path)
+    local d = string.split(path, '/')
+    local fnt = string.split(d[#d], '.')
+    d[#d] = fnt[1]
+    return table.concat(d, '/')
+end
+
+-- 获取路径最后一部分的扩展名（后缀名）
+function get_extension(path)
+    local d = string.split(path, '/')
+    local fnt = string.split(d[#d], '.')
+    table.remove(fnt, 1)
+    return table.concat(fnt, '.')
+end
+
+sys.alert(strip_dirname("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
+-- 输出 "1.lua.xxt"
+
+sys.alert(strip_filename("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
 -- 输出 "/private/var/mobile/Media/1ferver/lua/scripts"
+
+sys.alert(strip_extension("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
+-- 输出 "/private/var/mobile/Media/1ferver/lua/scripts/1"
+
+sys.alert(get_extension("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
+-- 输出 "lua.xxt"
+
+sys.alert(strip_extension(strip_dirname("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt")))
+-- 输出 "1"
 ```
 **注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)、[table.concat](http://cloudwu.github.io/lua53doc/manual.html#pdf-table.concat)
 
