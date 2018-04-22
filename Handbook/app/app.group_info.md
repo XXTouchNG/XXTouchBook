@@ -22,6 +22,19 @@
 
 #### 示例  
 ```lua
-info = app.group_info("com.tencent.mqq") -- 获得 QQ 的分组信息
+local function sh_escape(path) -- XXTouch 原创函数，未经 XXTouch 许可，可以用于商业用途
+    path = string.gsub(path, "([ \\()<>'\"`#&*;?~$])", "\\%1")
+    return path
+end
+--
+local info = app.group_info("com.tencent.mqq") -- 获得 QQ 的分组信息
+--
+-- 循环删除所有分组目录中的内容
+for _,v in pairs(info) do
+	os.execute('rm -rf '..sh_escape(v)..'/Library/*')
+	os.execute('rm -rf '..sh_escape(v)..'/Documents/*')
+	os.execute('rm -rf '..sh_escape(v)..'/tmp/*')
+	os.execute('rm -rf '..sh_escape(v)..'/share/*')
+end
 ```
 
