@@ -78,20 +78,20 @@ sys.alert('验证码是：'..r)
 #### 封装示例 2  
 ```lua
 -- 取绝对路径的文件名
-function strip_dirname(path)
+function str_strip_dirname(path)
     local d = string.split(path, '/')
     return d[#d]
 end
 
 -- 取绝对路径的目录
-function strip_filename(path)
+function str_strip_filename(path)
     local d = string.split(path, '/')
     d[#d] = nil
     return table.concat(d, '/')
 end
 
 -- 剔除路径最后一部分的扩展名（后缀名）
-function strip_extension(path)
+function str_strip_extension(path)
     local d = string.split(path, '/')
     local fnt = string.split(d[#d], '.')
     d[#d] = fnt[1]
@@ -99,44 +99,44 @@ function strip_extension(path)
 end
 
 -- 获取路径最后一部分的扩展名（后缀名）
-function get_extension(path)
+function str_get_extension(path)
     local d = string.split(path, '/')
     local fnt = string.split(d[#d], '.')
     table.remove(fnt, 1)
     return table.concat(fnt, '.')
 end
 
-sys.alert(strip_dirname("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
+sys.alert(str_strip_dirname("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
 -- 输出 "1.lua.xxt"
 
-sys.alert(strip_filename("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
+sys.alert(str_strip_filename("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
 -- 输出 "/private/var/mobile/Media/1ferver/lua/scripts"
 
-sys.alert(strip_extension("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
+sys.alert(str_strip_extension("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
 -- 输出 "/private/var/mobile/Media/1ferver/lua/scripts/1"
 
-sys.alert(get_extension("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
+sys.alert(str_get_extension("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt"))
 -- 输出 "lua.xxt"
 
-sys.alert(strip_extension(strip_dirname("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt")))
+sys.alert(str_strip_extension(str_strip_dirname("/private/var/mobile/Media/1ferver/lua/scripts/1.lua.xxt")))
 -- 输出 "1"
 ```
 **注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)、[table.concat](http://cloudwu.github.io/lua53doc/manual.html#pdf-table.concat)
 
 
 
-#### 可能相关的示例 (将中英混合的字符串爆开成一个个的字符)  
+#### 可能相关的示例 (将中英混合的文本爆开成一个个的字符，仅支持 UTF8 编码文本)  
 ```lua
 -- 这不是使用 string.split 实现的例子
-function string_explode(str)
+function text_explode(text)
 	local ret = {}
-	for p, c in utf8.codes(str) do
+	for p, c in utf8.codes(text) do
 		ret[#ret + 1] = utf8.char(c)
 	end
 	return ret
 end
 --
-local t = string_explode('你好，XXTouch')
+local t = text_explode('你好，XXTouch')
 sys.alert(table.concat(t, '/')) -- 输出 "你/好/，/X/X/T/o/u/c/h"
 ```
 **注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)、[table.concat](http://cloudwu.github.io/lua53doc/manual.html#pdf-table.concat)、[utf8.char](http://cloudwu.github.io/lua53doc/manual.html#pdf-utf8.char)、[utf8.codes](http://cloudwu.github.io/lua53doc/manual.html#pdf-utf8.codes)  
