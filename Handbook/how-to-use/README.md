@@ -9,7 +9,7 @@
 - 内置脚本模块存放目录为 `/var/mobile/Media/1ferver/lua/`
 
 ### 售前及安装答疑
-- [前往查看](/FAQ.md)
+- [前往查看](/FAQ/README.md)
 
 ### 用户使用图文说明
 - [前往查看](/ABC.md)

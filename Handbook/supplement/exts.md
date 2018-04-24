@@ -11,5 +11,5 @@
 #### 远程扩展接口
 - 如果有兴趣给 XXTouch 开发周边平台配套软件
 - 例如：基于局域网的 集中控制系统、截图取色工具、脚本开发调试环境、设备间数据共享
-- 可以看这里：[OpenAPI](https://kb.xxtouch.com/OpenAPI/)
+- 可以看这里：[OpenAPI](/OpenAPI/README.md)
 
