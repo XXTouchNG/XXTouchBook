@@ -21,5 +21,5 @@
     + 2、在被 require 的模块代码最后加上一行 `end`
     + 3、require 的时候，后面多加一对括号，例如 `require('A')` 改成 `require('A')()`
     + 看完上面仍然不会操作的下载参考例子
-    > [像dofile一样使用require.zip](res/像dofile一样使用require.zip)
+    > [像dofile一样使用require.zip](https://apt-pages.xxtouch.com/others/%E5%83%8Fdofile%E4%B8%80%E6%A0%B7%E4%BD%BF%E7%94%A8require.zip)
   
