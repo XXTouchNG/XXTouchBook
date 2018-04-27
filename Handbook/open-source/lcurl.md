@@ -46,4 +46,4 @@ function httpGet(url) -- 也能请求 ftp 资源 (此函数已内置，不需要
 	end
 end
 ```
-
+**注**：上述代码中使用了非本章函数 [table.concat](http://cloudwu.github.io/lua53doc/manual.html#pdf-table.concat)
