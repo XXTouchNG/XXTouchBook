@@ -1,9 +1,8 @@
 # XPP 脚本包
 
 - [简介](INTRO.md)
-- [Bundle \(包\)](Bundle.md)
 - [XPP 格式](Layout.md)
-    - [Info.lua](Layout/Info.md)
+    - [元信息](Layout/Info.md)
         - [BundleIdentifier \(包标识符\)](Layout/Info/BundleIdentifier.md)
         - [BundleVersion \(脚本应用包的版本号\)](Layout/Info/BundleVersion.md)
         - [BundleName \(短名称\)](Layout/Info/BundleName.md)
@@ -15,8 +14,5 @@
         - [MinimumXXTVersion \(最低 XXTouch 服务版本要求\)](Layout/Info/MinimumXXTVersion.md)
         - [SupportedResolutions \(支持的设备屏幕物理尺寸数组\)](Layout/Info/SupportedResolutions.md)
         - [PackageControl \(附加信息\)](Layout/Info/PackageControl.md)
-    - [运行脚本](Layout/Entry.md)
-    - [配置界面](Layout/XUI.md)
-    - [资源管理](Layout/Resources.md)
     - [本地化](Layout/Localizable.md)
 - [XPA 打包格式](XPA.md)
