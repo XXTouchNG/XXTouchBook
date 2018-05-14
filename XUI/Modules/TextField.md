@@ -8,6 +8,7 @@
 |keyboard|字符串|键盘类型|可选|
 |placeholder|字符串|文本框占位符|可选|
 |isSecure|布尔型|字符是否显示为小圆点|可选|
+|clearButtonMode|字符串|是否显示清除小黑叉|可选|
 
 *此组件不支持 __icon__, 若设置 __title__ 属性, 建议将 __alignment__ 属性设为 "Right".*
 
@@ -37,6 +38,13 @@
 |NamePhonePad|姓名与电话号码|
 |EmailAddress|电子邮箱|
 |DecimalPad|带小数点的数字|
+
+| clearButtonMode | 描述 |
+|--------|------|
+|Never|从不显示 (默认)|
+|Always|一直显示|
+|WhileEditing|仅编辑时显示|
+|UnlessEditing|仅不编辑时显示|
 
 |   返回类型   |   描述   |
 |--------------|----------|
