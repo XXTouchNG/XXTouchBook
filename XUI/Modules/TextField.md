@@ -20,7 +20,7 @@
 
 此组件不支持 `icon`, 若设置 `title` 属性, 建议将 `alignment` 属性设为 "Right".
 
-修改或添加字符串条目时, 若字符串无法通过正则表达式 `validationRegex` 验证, 则无法保存当前条目.
+修改或添加字符串条目时, 若字符串无法通过[正则表达式](http://tool.oschina.net/regex/) `validationRegex` 验证, 则无法保存当前条目.
 
 `prompt` 或 `message` 不为空时, 轻按 **TextField**, 会弹出提示框, 并要求在提示框中输入值, 同时需要 iOS 8.0 及更高版本.
 
@@ -85,6 +85,7 @@
     key = "password";
     keyboard = "Alphabet";
     placeholder = "Enter the password";
+    validationRegex = "^[0-9]{6}$";
 };
 ```
 
