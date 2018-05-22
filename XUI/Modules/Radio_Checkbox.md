@@ -37,14 +37,14 @@
 此组件不支持 `label`/`icon`/`height`.
 
 
-|  主题键  |  描述  |
-|----------|--------|
-|tagTextColor|标签文字颜色|
-|tagSelectedTextColor|选中标签文字颜色|
-|tagBackgroundColor|标签背景颜色|
-|tagSelectedBackgroundColor|选中标签背景颜色|
-|tagBorderColor|标签边框颜色|
-|tagSelectedBorderColor|选中标签边框颜色|
+|  主题键  |  类型  |  描述  |
+|--------|------|------|
+|tagTextColor|颜色|标签文字颜色|
+|tagSelectedTextColor|颜色|选中标签文字颜色|
+|tagBackgroundColor|颜色|标签背景颜色|
+|tagSelectedBackgroundColor|颜色|选中标签背景颜色|
+|tagBorderColor|颜色|标签边框颜色|
+|tagSelectedBorderColor|颜色|选中标签边框颜色|
 
 
 |   返回类型   |   描述   |
