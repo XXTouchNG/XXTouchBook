@@ -10,6 +10,16 @@
 此组件不支持 `icon`/`height`.
 
 
+#### 主题
+
+|主题键|类型|描述|
+|---|---|---|
+|sectionHeaderTextColor|*颜色*|分组首部标题颜色, 即 `label` 的颜色|
+|sectionFooterTextColor|*颜色*|分组尾部文字颜色, 即 `footerText` 的颜色|
+|sectionHeaderBackgroundColor|*颜色*|分组首部背景颜色|
+|sectionFooterBackgroundColor|*颜色*|分组尾部背景颜色|
+
+
 #### 示例
 
 ``` lua

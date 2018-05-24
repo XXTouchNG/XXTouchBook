@@ -46,9 +46,9 @@
 
 |主题键|类型|描述|
 |---|---|---|
-|textColor|颜色|文字颜色|
-|caretColor|颜色|光标颜色|
-|placeholderColor|颜色|占位符颜色|
+|textColor|*颜色*|文字颜色|
+|caretColor|*颜色*|光标颜色|
+|placeholderColor|*颜色*|占位符颜色|
 
 
 #### 示例

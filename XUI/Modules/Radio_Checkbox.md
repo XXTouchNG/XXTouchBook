@@ -30,12 +30,12 @@
 
 |主题键|类型|描述|
 |---|---|---|
-|tagTextColor|颜色|标签文字颜色|
-|tagSelectedTextColor|颜色|选中标签文字颜色|
-|tagBackgroundColor|颜色|标签背景颜色|
-|tagSelectedBackgroundColor|颜色|选中标签背景颜色|
-|tagBorderColor|颜色|标签边框颜色|
-|tagSelectedBorderColor|颜色|选中标签边框颜色|
+|tagTextColor|*颜色*|标签文字颜色|
+|tagSelectedTextColor|*颜色*|选中标签文字颜色|
+|tagBackgroundColor|*颜色*|标签背景颜色|
+|tagSelectedBackgroundColor|*颜色*|选中标签背景颜色|
+|tagBorderColor|*颜色*|标签边框颜色|
+|tagSelectedBorderColor|*颜色*|选中标签边框颜色|
 
 
 #### 示例

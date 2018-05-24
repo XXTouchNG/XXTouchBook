@@ -16,6 +16,14 @@
 |backgroundImage|字符串|背景图片相对路径|
 
 
+#### 导航栏
+
+|键|类型|描述|
+|---|---|---|
+|navigationBarColor|*颜色*|导航栏背景颜色|
+|navigationTitleColor|*颜色*|导航栏标题颜色|
+
+
 #### 页首与页尾
 
 |键|类型|描述|
@@ -27,17 +35,7 @@
 |footerBackgroundColor|*颜色*|页尾背景颜色|
 
 
-## 组
-
-|键|类型|描述|
-|---|---|---|
-|sectionHeaderTextColor|*颜色*|组首部标题颜色|
-|sectionFooterTextColor|*颜色*|组尾部文字颜色|
-|sectionHeaderBackgroundColor|*颜色*|组首部背景颜色|
-|sectionFooterBackgroundColor|*颜色*|组尾部背景颜色|
-
-
-#### 组件
+#### 通用组件
 
 |键|类型|描述|
 |---|---|---|
@@ -47,14 +45,6 @@
 |highlightedColor|*颜色*|高亮颜色|
 |labelColor|*颜色*|标题文字颜色|
 |valueColor|*颜色*|值文字颜色|
-
-
-#### 导航栏
-
-|键|类型|描述|
-|---|---|---|
-|navigationBarColor|*颜色*|导航栏背景颜色|
-|navigationTitleColor|*颜色*|导航栏标题颜色|
 
 
 #### 状态
