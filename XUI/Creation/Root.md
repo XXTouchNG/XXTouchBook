@@ -2,24 +2,27 @@
 
 XUI 配置的根（顶层）为字典. 
 
-|   键   |   类型   |   描述   |   条件   |
-|--------|----------|----------|----------|
+|键|类型|描述|条件|
+|---|---|---|---|
 |title|字符串|导航栏标题|可选, 可本地化|
 |header|字符串|主标题|可选, 可本地化|
 |subheader|字符串|副标题|可选, 可本地化|
 |items|包含字典的数组|组件列表|\-|
 |theme|字典|界面主题样式|可选|
 
-**items** 是组件列表数组, 所有的 *组件字典* 按顺序存放在该数组中, 即可在界面上显示. 关于 *组件字典* 的说明, 参见本文后续内容. 
+`items` 是组件列表数组, 所有的 *组件字典* 按顺序存放在该数组中, 即可在界面上显示. 关于 *组件字典* 的说明, 参见本文后续内容. 
+
 
 ``` lua
 return {
-    subheader = "Elegant App UI provided by XXTouchApp.";
-    header = "Example";
-    title = "Demo";
+    title = "一个脚本包";
+    header = "脚本配置演示";
+    subheader = "由 XXTouch 提供的优雅的脚本配置界面";
+    defaults = "com.yourcompany.A-Script-Bundle";  -- 配置存储的位置，读取配置的时候需要用到
     theme = {
-        tintColor = "#FFFFFF";
+        style = "Grouped";  -- 组显示风格，如果为 Plain 则为平铺显示风格
     };
-    items = {};
+    items = {};  -- 该表中存放各个组件的字典
 };
 ```
+
