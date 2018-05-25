@@ -17,8 +17,9 @@
 
 |主题键|类型|描述|
 |---|---|---|
-|tintColor|*颜色*|开关底色|
-|thumbColor|*颜色*|开关中心色|
+|offTintColor|*颜色*|关闭时开关底色|
+|onTintColor|*颜色*|开启时开关底色|
+|thumbTintColor|*颜色*|开关中心色|
 
 
 #### 示例

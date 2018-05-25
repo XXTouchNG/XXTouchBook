@@ -1,6 +1,6 @@
 ### Group 分组
 
-此组件在界面上显示一个分组区域, 包含到下一个分组组件之间的所有组件. 通常用于功能划分, 也经常用于对某一组件的补充描述. 
+此组件在界面上显示一个分组区域, 包含到下一个分组组件之间的所有组件. 通常用于功能划分, 也经常用于对某一组件的补充描述. 通常情况下, 列表中第一个组件必须是 `Group`, 如果不是, XUI 会自动在列表的第一个位置添加一个 `Group` 组件.
 
 |键|类型|描述|必选|默认值|最低版本需求|
 |---|---|---|---|---|---|
@@ -14,10 +14,10 @@
 
 |主题键|类型|描述|
 |---|---|---|
-|sectionHeaderTextColor|*颜色*|分组首部标题颜色, 即 `label` 的颜色|
-|sectionFooterTextColor|*颜色*|分组尾部文字颜色, 即 `footerText` 的颜色|
-|sectionHeaderBackgroundColor|*颜色*|分组首部背景颜色|
-|sectionFooterBackgroundColor|*颜色*|分组尾部背景颜色|
+|groupHeaderTextColor|*颜色*|分组首部标题颜色, 即 `label` 的颜色|
+|groupFooterTextColor|*颜色*|分组尾部文字颜色, 即 `footerText` 的颜色|
+|groupHeaderBackgroundColor|*颜色*|分组首部背景颜色|
+|groupFooterBackgroundColor|*颜色*|分组尾部背景颜色|
 
 
 #### 示例
