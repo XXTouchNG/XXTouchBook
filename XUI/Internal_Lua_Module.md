@@ -3,6 +3,11 @@
 XUI 是一个特殊的 Lua 文件，同时还支持调用很少一部分的服务模块，主要用于设备类型判断、界面重载、配置数据读写等目的。
 
 
+### 扩展字符串模块 (string)
+
+- [比较两个版本号大小](/Handbook/ext-string/string.compare_version.html) `string.compare_version` (v1.2-10)
+
+
 ### 屏幕模块（screen）
 
 - [获取屏幕尺寸](/Handbook/screen/screen.size.html) `screen.size`
@@ -22,7 +27,7 @@ XUI 是一个特殊的 Lua 文件，同时还支持调用很少一部分的服�
 
 ### 应用程序模块 (app)
 
-- [前台打开一个 URL](/Handbook/app/app.open_url.html) `app.open_url`
+- [前台打开一个 URL](/Handbook/app/app.open_url.html) `app.open_url` (v1.2-10)
 
 
 ### PLIST 文件读写模块 (plist)
