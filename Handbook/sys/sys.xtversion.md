@@ -12,6 +12,10 @@
     - 文本型，返回 XXTouch 版本号
 
 
+#### 说明
+> 这个函数可以在 XUI 中使用  
+
+
 #### 示例  
 ```lua
 sys.alert('当前 XXTouch 版本：'..sys.xtversion())
