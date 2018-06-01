@@ -7,12 +7,12 @@ XUI 配置的根（顶层）为字典.
 |title|字符串|导航栏标题|可选, 可本地化|
 |header|字符串|主标题|可选, 可本地化|
 |subheader|字符串|副标题|可选, 可本地化|
-|defaults|字符串|配置存储的名称|\-|
+|defaults|字符串|配置分区标识符, 即全局配置文件存储的名称|\-|
 |items|包含字典的数组|组件列表|\-|
 |theme|字典|界面主题样式|可选|
 |stringsTable|字符串|多语言表名称, 默认为 `Localizable`|可选|
 
-`defaults` 指定了各组件配置项存储的位置, 例如设置 `defaults` 为 `com.yourcompany.A-Script-Bundle`, 则该 XUI 配置文件将保存到 `uicfg/com.yourcompany.A-Script-Bundle.plist` 当中. 同时, 也可为各组件分别设置 `defaults` 字段.
+`defaults` 为配置分区标识符, 指定了各组件配置项存储的位置, 例如设置 `defaults` 为 `com.yourcompany.A-Script-Bundle`, 则该 XUI 配置文件将保存到 `uicfg/com.yourcompany.A-Script-Bundle.plist` 当中. 同时, 也可为各组件分别设置 `defaults` 字段.
 
 `items` 是组件列表数组, 所有的 *组件字典* 按顺序存放在该数组中, 即可在界面上显示. 关于 *组件字典* 的说明, 参见[通用属性](/XUI/Creation/General.html). 
 
