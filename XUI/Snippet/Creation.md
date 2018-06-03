@@ -1,6 +1,6 @@
 ### 创建
 
-通常，「代码片段」需要直接返回一个表，如：
+通常，「代码片段模板」`.snippet` 文件需要直接返回一个表，如：
 
 ```lua
 return {
@@ -44,11 +44,11 @@ return {
 |generator|函数|代码片段生成器|
 |output|字符串|代码片段独立输出文件名|
 
-`name` 和 `description` 分别为代码片段的显示名称与显示描述, 会显示在文件管理器、代码片段的入口处。
+`name` 和 `description` 分别为代码片段模板的显示名称与显示描述, 会显示在文件管理器、代码片段的入口处。
 
 `arguments` 为包含了一个或多个 **选择器参数字典** 的数组。App 将根据该数组中约定的选择器顺序，创建出一个选择器队列，依次让用户进行选择操作。用户完成选择器队列后，App 会将各选择器的返回值作为可变传入参数，依次传入生成器 `generator` 并调用它，最后将 `generator` 的返回值返回给调用方。
 
-代码片段 `.snippet` 是可以独立使用的。如果需要允许它独立使用，可为其设置 `output` 字段，`generator` 生成的结果文本将保存到同一目录下 `output` 所标识的文件中。
+代码片段模板 `.snippet` 是可以独立使用的。如果需要允许它独立使用，可为其设置 `output` 字段，`generator` 生成的结果文本将保存到同一目录下 `output` 所标识的文件中。
 
 
 #### 选择器参数字典
@@ -65,15 +65,15 @@ return {
 
 #### 在 XUI 中使用
 
-如果代码片段 .snippet 在 XUI 的 [TitleValue](/XUI/Modules/TitleValue.html) 组件中使用，即可从 XUI 中唤起选择器队列，并将结果保存到 XUI 组件的配置项中。同时该 .snippet 可调用 XUI 支持的所有 API，如 `xui.get`/`xui.set`/`xpp.bundle_path` 等。
+如果代码片段模板 `.snippet` 在 XUI 的 [TitleValue](/XUI/Modules/TitleValue.html) 组件中使用，即可从 XUI 中唤起选择器队列，并将结果保存到 XUI 组件的配置项中。同时该 `.snippet` 可调用 XUI 支持的所有 API，如 `xui.get`/`xui.set`/`xpp.bundle_path` 等。
 
 
 #### 在代码编辑器中使用
 
-将代码片段 .snippet 放置到主目录的 `snippets` 目录中，即可被 App 的代码编辑器所调用。轻按键盘工具类右上角的星形按钮，即可快速生成代码片段，并插入到编辑的代码中。
+将代码片段模板 `.snippet` 放置到主目录的 `snippets` 目录中，即可被 App 的代码编辑器所调用。轻按键盘工具类右上角的星形按钮，即可快速生成代码片段，并插入到编辑的代码中。
 
 
 #### 作为独立文件使用
 
-为代码片段 .snipper 设置 `output` 字段，并将代码片段放置在主目录的 `lua/scripts` 目录中，即可从 App 中直接点击，开始选择器队列，`generator` 生成的结果文本将保存到同一目录下 `output` 所标识的文件中。
+为代码片段模板 `.snippet` 设置 `output` 字段，并将代码片段放置在主目录的 `lua/scripts` 目录中，即可从 App 中直接点击，开始选择器队列，`generator` 生成的结果文本将保存到同一目录下 `output` 所标识的文件中。
 
