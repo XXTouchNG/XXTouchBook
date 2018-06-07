@@ -23,14 +23,8 @@
 
 #### 示例  
 ```lua
-function close_all_app() -- 定义一个遍历关闭所有的 app 的函数
-    for _,bid in ipairs(app.bundles()) do
-    	app.close(bid)
-    end
-end
---
 -- 备份 idfav 信息
-close_all_app() -- 关闭所有应用
+app.quit('*') -- 关闭所有应用
 local old_idfavs = clear.idfav()
 local f = io.open("/var/mobile/Media/1ferver/res/old_idfavs.txt", "wb")
 if f then
@@ -64,5 +58,5 @@ else
     sys.alert("文件打开失败")
 end
 ```
-**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)、[`app.close`](/Handbook/app/app.close.md)、[`app.bundles`](/Handbook/app/app.bundles.md)
+**注**：上述代码中使用了非本章函数 [`sys.alert`](/Handbook/sys/sys.alert.md)、[`app.quit`](/Handbook/app/app.quit.md)  
 
