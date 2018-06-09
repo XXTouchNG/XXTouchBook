@@ -29,7 +29,6 @@
 > 文件名如果不使用绝对路径，那么加载 ```/var/mobile/Media/1ferver/res/``` 这个目录的图片文件  
 > > 打码题型参考  
 > > 若快题型及价格：http://www.ruokuai.com/home/pricetype  
-> > 打码兔题型及价格：http://wiki.dama2.com/index.php?n=ApiDoc.Pricedesc  
 
 
 #### 示例  

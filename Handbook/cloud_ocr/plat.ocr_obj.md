@@ -28,7 +28,6 @@
 > 使用打码平台识别图片对象  
 > > 打码题型参考  
 > > 若快题型及价格：http://www.ruokuai.com/home/pricetype  
-> > 打码兔题型及价格：http://wiki.dama2.com/index.php?n=ApiDoc.Pricedesc  
 
 
 #### 示例  
