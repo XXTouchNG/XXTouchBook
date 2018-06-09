@@ -15,7 +15,7 @@ app.quit(应用程序包名)
 
 
 #### 说明
-> 这个当然也是强杀，但是与 [app.close](/Handbook/app/app.close.md) 不同的是，应用在退出前会收到通知；并且它会清除掉多任务切换界面的标签  
+> 这个当然也是强杀，但是与 [app.close](/Handbook/app/app.close.md) 不同的是，应用在退出前会收到通知，应用在完全关闭之前有至多 10 秒时间保存存档，并且它会清除掉多任务切换界面的标签  
 > **请不要在锁屏状态使用，该函数可能不能良好退出 root 权限的 App，使用该函数退出 root 权限程序可能会导致屏幕卡住点图标无响应等现象，root 权限的 App 推荐使用 [app.close](/Handbook/app/app.close.md) 强杀**  
 
 
