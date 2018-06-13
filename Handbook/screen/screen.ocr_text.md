@@ -51,8 +51,8 @@ sys.toast("识别结果："..txt:atrim())
 --
 -- 示例 4：
 local txt = screen.ocr_text(187, 882, 298, 914, {
-  lang = "chi_sim",         -- 使用简体中文库识别（注意，简体中文库不是内置的，请从本节说明中找到下载地址并自行导入字库）
-  white_list = 你我他",      -- 白名单设为 "你我他"
+  lang = "chi_sim",         -- 使用简体中文库识别（注意，简体中文库不是内置的）
+  white_list = "你我他",      -- 白名单设为 "你我他"
 })
 sys.toast("识别结果："..txt:atrim())
 --
