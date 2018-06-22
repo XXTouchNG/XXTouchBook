@@ -36,12 +36,12 @@ x, y = screen.find_image( -- 原图位置 左上: 354, 274 | 右下: 358, 284
 , 95, 0, 0, 639, 1135)
 --
 -- 示例 2：
-img = image.load_file("/User/1.png")
+img = image.load_file("/var/mobile/1.png")
 x, y = screen.find_image(img)
 x, y = screen.find_image(img, 95)
 --
 -- 示例 4 (1.1.2-1 新增) ：
-x, y = screen.find_image("/User/1.png", 95, 0, 0, 639, 1135)
+x, y = screen.find_image("/var/mobile/1.png", 95, 0, 0, 639, 1135)
 ```
 **说明**：在 Lua 源码中，字符串中 `\x` 开头，后面跟两位 16 进制数表示以该数字编码的单个字节。例如：`\x58` 表示 `X` 这个字符，可打印字符部分参考[《ASCII 编码》](https://baike.baidu.com/item/ASCII/309296)  
 

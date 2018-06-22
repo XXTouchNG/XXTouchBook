@@ -21,7 +21,7 @@
 #### 示例  
 ```lua
 -- 解码一个本地二维码图片文件
-local img = image.load_file("/User/qr.png")
+local img = image.load_file("/var/mobile/qr.png")
 if img then
     local str = img:qr_decode()
     img:destroy()

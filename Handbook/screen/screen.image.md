@@ -25,7 +25,7 @@
 --
 screen.image():save_to_album() -- 全屏截图并保存到相册
 --
-screen.image():save_to_png_file("/User/1.png") -- 全屏截图并保存到文件 /User/1.png
+screen.image():save_to_png_file("/var/mobile/1.png") -- 全屏截图并保存到文件 /var/mobile/1.png
 --
 screen.image(100, 100, 200, 200):save_to_album() -- 截取左上坐标为 100, 100 右下坐标为 200, 200 的区域图像保存到相册
 --

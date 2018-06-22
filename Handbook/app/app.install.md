@@ -26,9 +26,9 @@
 
 #### 示例  
 ```lua
-app.install("/User/1.ipa", true) -- 强行覆盖安装，用于降级安装 App
+app.install("/var/mobile/1.ipa", true) -- 强行覆盖安装，用于降级安装 App
 --
-if app.install("/User/1.ipa") then
+if app.install("/var/mobile/1.ipa") then
     -- 安装成功
 else
     -- 安装失败

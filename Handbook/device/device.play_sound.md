@@ -19,7 +19,7 @@ device.play_sound(声音文件路径)
 
 #### 示例  
 ```lua
-device.play_sound("/User/十年.mp3")
+device.play_sound("/var/mobile/十年.mp3")
 sys.msleep(205 * 1000) -- 等待 205 秒 (3分25秒) 
 ```
 **注**：上述代码中使用了非本章函数 [`sys.msleep`](/Handbook/sys/sys.msleep.md)
