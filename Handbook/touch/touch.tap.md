@@ -18,15 +18,15 @@ touch.tap(横坐标, 纵坐标 [, 延迟毫秒, 操作后等待毫秒 ])
 #### 说明
 > 模拟手指轻触一次屏幕指定位置  
 > **这个方法可能会让出，在这个方法返回之前，其它的 [线程](/Handbook/thread/README.md) 可能会得到运行机会**  
-> **注:** 该方法在调用完成之前会占用一个手指 id，手指 id 的数量是有限的 (大约 30 个) ，超出限制再调用 [touch.on](/Handbook/touch/touch.on.md) 或 [touch.tap](/Handbook/touch/touch.tap.md) 会抛出 `finger pool overflow` 错误，注意不要**同时占用**过多手指 id，及时调用 :off 方法释放手指  
+> **注:** 该方法在调用完成之前会自动分配并占用一个手指 id，手指 id 的数量是有限的 (大约 30 个) ，超出限制再调用 [touch.on](/Handbook/touch/touch.on.md) 或 [touch.tap](/Handbook/touch/touch.tap.md) 会抛出 `finger pool overflow` 错误，注意不要**同时占用**过多手指 id，及时调用 :off 方法释放手指  
 
 
 #### 示例  
 ```lua
 touch.tap(100, 100) -- 点一下屏幕上 100, 100 这个位置
---
+
 touch.tap(100, 100, 300) -- 在屏幕上的 100, 100 这个位置按下，等待 0.3 秒再抬起
---
+
 touch.tap(100, 100, 300, 1000) -- 在屏幕上的 100, 100 这个位置按下，等待 0.3 秒再抬起，再等待 1 秒
 ```
 
